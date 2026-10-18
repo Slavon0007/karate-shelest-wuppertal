@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "linkedom": "0.18.13",
+    "playwright": "1.64.1"
+  },
+  "name": "karate-shelest-wuppertal",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/check-site.mjs"
+  }
+}

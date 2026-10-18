@@ -16,3 +16,24 @@
 
 !sitemap.xml
 !SEO-PLAN.md
+
+!legacy-language.js
+!package.json
+!package-lock.json
+!README.md
+!SEO-REPORT.md
+!src/
+!src/**
+!tools/
+!tools/**
+!ru/
+!ru/index.html
+!uk/
+!uk/index.html
+!assets/
+!assets/images/
+!assets/images/*.webp
+!assets/fonts/
+!assets/fonts/**
+!assets/vendor/
+!assets/vendor/**

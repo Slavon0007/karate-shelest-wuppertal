@@ -1,0 +1,264 @@
+{
+  "hero-karate-v2.png": {
+    "originalBytes": 2333068,
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "path": "assets/images/karate-wuppertal-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 15276
+      },
+      {
+        "path": "assets/images/karate-wuppertal-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 52482
+      },
+      {
+        "path": "assets/images/karate-wuppertal-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 113832
+      },
+      {
+        "path": "assets/images/karate-wuppertal-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 234266
+      }
+    ]
+  },
+  "5262644864430580814.jpg": {
+    "originalBytes": 252016,
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "path": "assets/images/shelest-logo-96.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4022
+      }
+    ]
+  },
+  "5262644864430580967.jpg": {
+    "originalBytes": 74358,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/kindertraining-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 10970
+      },
+      {
+        "path": "assets/images/kindertraining-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 27200
+      },
+      {
+        "path": "assets/images/kindertraining-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 47806
+      }
+    ]
+  },
+  "5267440693632770122.jpg": {
+    "originalBytes": 145861,
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "assets/images/wettkampf-320.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 15966
+      },
+      {
+        "path": "assets/images/wettkampf-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 46058
+      },
+      {
+        "path": "assets/images/wettkampf-1024.webp",
+        "width": 1024,
+        "height": 768,
+        "bytes": 86018
+      },
+      {
+        "path": "assets/images/wettkampf-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 117836
+      }
+    ]
+  },
+  "5262644864430581712.jpg": {
+    "originalBytes": 251609,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/trainer-team-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 31004
+      },
+      {
+        "path": "assets/images/trainer-team-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 80236
+      },
+      {
+        "path": "assets/images/trainer-team-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 145988
+      }
+    ]
+  },
+  "5262872794050009856.jpg": {
+    "originalBytes": 144602,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/training-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 26372
+      },
+      {
+        "path": "assets/images/training-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 70354
+      },
+      {
+        "path": "assets/images/training-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 124008
+      }
+    ]
+  },
+  "5262644864430581031.jpg": {
+    "originalBytes": 254353,
+    "width": 1280,
+    "height": 1201,
+    "variants": [
+      {
+        "path": "assets/images/team-im-freien-320.webp",
+        "width": 320,
+        "height": 300,
+        "bytes": 27292
+      },
+      {
+        "path": "assets/images/team-im-freien-640.webp",
+        "width": 640,
+        "height": 600,
+        "bytes": 92828
+      },
+      {
+        "path": "assets/images/team-im-freien-1024.webp",
+        "width": 1024,
+        "height": 961,
+        "bytes": 183368
+      },
+      {
+        "path": "assets/images/team-im-freien-1280.webp",
+        "width": 1280,
+        "height": 1201,
+        "bytes": 245642
+      }
+    ]
+  },
+  "5267440693632770126.jpg": {
+    "originalBytes": 171699,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/karateka-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 28420
+      },
+      {
+        "path": "assets/images/karateka-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 87516
+      },
+      {
+        "path": "assets/images/karateka-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 158960
+      }
+    ]
+  },
+  "5262644864430581032.jpg": {
+    "originalBytes": 169190,
+    "width": 1280,
+    "height": 937,
+    "variants": [
+      {
+        "path": "assets/images/karate-team-320.webp",
+        "width": 320,
+        "height": 234,
+        "bytes": 19084
+      },
+      {
+        "path": "assets/images/karate-team-640.webp",
+        "width": 640,
+        "height": 468,
+        "bytes": 60966
+      },
+      {
+        "path": "assets/images/karate-team-1024.webp",
+        "width": 1024,
+        "height": 750,
+        "bytes": 118874
+      },
+      {
+        "path": "assets/images/karate-team-1280.webp",
+        "width": 1280,
+        "height": 937,
+        "bytes": 160070
+      }
+    ]
+  },
+  "5267440693632770117.jpg": {
+    "originalBytes": 104612,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/probetraining-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 17052
+      },
+      {
+        "path": "assets/images/probetraining-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 43278
+      },
+      {
+        "path": "assets/images/probetraining-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 76400
+      }
+    ]
+  }
+}

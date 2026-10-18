@@ -1,7 +1,7 @@
 const translations = {
   de: {
     title: 'Karate für Kinder in Wuppertal | Karateschule Shelest', nav: ['Die Schule', 'Training', 'Trainer', 'Kontakt'], navCta: 'Probetraining', menu: 'Menü öffnen', navLabel: 'Hauptnavigation', langLabel: 'Sprache wählen',
-    eyebrow: 'Karate für Kinder in Wuppertal', heroTitle: 'KARATE FÜR KINDER<br><em>IN WUPPERTAL.</em>', heroText: 'In der Karateschule Shelest trainieren Kinder Karate mit persönlicher Unterstützung. Wir fördern Technik, Selbstvertrauen und die Freude an Bewegung.', primary: 'Probetraining sichern', secondary: 'Mehr erfahren', heroSide: 'BEWEGUNG<br>FREUDE<br>ENTWICKLUNG',
+    eyebrow: 'Karate für Kinder in Wuppertal', heroTitle: 'KARATE FÜR KINDER<br><em>IN WUPPERTAL.</em>', heroText: 'In der Karateschule Shelest trainieren Kinder Karate mit persönlicher Unterstützung. Wir fördern Technik, Selbstvertrauen und die Freude an Bewegung.', primary: 'Kostenloses Probetraining', secondary: 'Mehr erfahren', heroSide: 'BEWEGUNG<br>FREUDE<br>ENTWICKLUNG',
     manifestIndex: '01 — UNSERE HALTUNG', manifestTitle: 'MEHR ALS<br><span>KARATE.</span>', manifestLead: 'Wir trainieren Technik. Wir formen Charakter.',
     values: [['Selbstvertrauen', 'Kinder lernen, an sich zu glauben und Herausforderungen mutig anzunehmen.'], ['Disziplin', 'Klare Ziele und regelmäßiges Training schaffen Fokus, Kraft und Ausdauer.'], ['Teamgeist', 'Respekt und Unterstützung machen aus einzelnen Schülern eine starke Gemeinschaft.']],
     trainingIndex: '02 — TRAINING', trainingTitle: 'JEDES KIND.<br><span>EIN EIGENER WEG.</span>', trainingText: 'Unser Kindertraining in Wuppertal verbindet Karate-Technik mit Bewegung, Konzentration und respektvollem Miteinander. Wir berücksichtigen Alter und Trainingsstand und begleiten jedes Kind beim nächsten Schritt. Wer sportliche Ziele verfolgt, kann sich bei uns auch auf Wettkämpfe vorbereiten.', trainingButton: 'Training entdecken', photoTall: 'Fokus beginnt im Kopf', photoWide: ['SPORTLICHE ZIELE', 'Wettkampf & Entwicklung'],
@@ -12,7 +12,7 @@ const translations = {
   },
   ru: {
     title: 'Школа карате Shelest — Вупперталь', nav: ['О школе', 'Тренировки', 'Тренер', 'Контакты'], navCta: 'Пробная тренировка', menu: 'Открыть меню', navLabel: 'Главная навигация', langLabel: 'Выбрать язык',
-    eyebrow: 'Карате для детей в Вуппертале', heroTitle: 'ЗДЕСЬ НАЧИНАЕТСЯ<br><em>ЛЮБОВЬ К СПОРТУ.</em>', heroText: 'Увлекательные тренировки, поддержка тренера и радость от новых достижений.', primary: 'Записаться на тренировку', secondary: 'Узнать больше', heroSide: 'ДВИЖЕНИЕ<br>РАДОСТЬ<br>РАЗВИТИЕ',
+    eyebrow: 'Карате для детей в Вуппертале', heroTitle: 'ЗДЕСЬ НАЧИНАЕТСЯ<br><em>ЛЮБОВЬ К СПОРТУ.</em>', heroText: 'Увлекательные тренировки, поддержка тренера и радость от новых достижений.', primary: 'Записаться бесплатно', secondary: 'Узнать больше', heroSide: 'ДВИЖЕНИЕ<br>РАДОСТЬ<br>РАЗВИТИЕ',
     manifestIndex: '01 — НАШ ПОДХОД', manifestTitle: 'БОЛЬШЕ, ЧЕМ<br><span>КАРАТЕ.</span>', manifestLead: 'Мы тренируем технику. Мы формируем характер.',
     values: [['Уверенность в себе', 'Дети учатся верить в себя и смело принимать новые вызовы.'], ['Дисциплина', 'Чёткие цели и регулярные тренировки развивают концентрацию, силу и выносливость.'], ['Командный дух', 'Уважение и поддержка превращают учеников в сильную команду.']],
     trainingIndex: '02 — ТРЕНИРОВКИ', trainingTitle: 'КАЖДЫЙ РЕБЁНОК.<br><span>СВОЙ ПУТЬ.</span>', trainingText: 'Мы видим не только пояс и технику. Мы видим личность, потенциал и следующий достижимый шаг.', trainingButton: 'Узнать о тренировках', photoTall: 'Фокус начинается с мысли', photoWide: ['СПОРТИВНЫЕ ЦЕЛИ', 'Соревнования и развитие'],
@@ -23,7 +23,7 @@ const translations = {
   },
   uk: {
     title: 'Школа карате Shelest — Вупперталь', nav: ['Про школу', 'Тренування', 'Тренер', 'Контакти'], navCta: 'Пробне тренування', menu: 'Відкрити меню', navLabel: 'Головна навігація', langLabel: 'Вибрати мову',
-    eyebrow: 'Карате для дітей у Вупперталі', heroTitle: 'ТУТ ПОЧИНАЄТЬСЯ<br><em>ЛЮБОВ ДО СПОРТУ.</em>', heroText: 'Захопливі тренування, підтримка тренера та радість від нових досягнень.', primary: 'Записатися на тренування', secondary: 'Дізнатися більше', heroSide: 'РУХ<br>РАДІСТЬ<br>РОЗВИТОК',
+    eyebrow: 'Карате для дітей у Вупперталі', heroTitle: 'ТУТ ПОЧИНАЄТЬСЯ<br><em>ЛЮБОВ ДО СПОРТУ.</em>', heroText: 'Захопливі тренування, підтримка тренера та радість від нових досягнень.', primary: 'Записатися безкоштовно', secondary: 'Дізнатися більше', heroSide: 'РУХ<br>РАДІСТЬ<br>РОЗВИТОК',
     manifestIndex: '01 — НАШ ПІДХІД', manifestTitle: 'БІЛЬШЕ, НІЖ<br><span>КАРАТЕ.</span>', manifestLead: 'Ми тренуємо техніку. Ми формуємо характер.',
     values: [['Впевненість у собі', 'Діти вчаться вірити в себе та сміливо приймати нові виклики.'], ['Дисципліна', 'Чіткі цілі та регулярні тренування розвивають зосередженість, силу й витривалість.'], ['Командний дух', 'Повага й підтримка перетворюють учнів на сильну команду.']],
     trainingIndex: '02 — ТРЕНУВАННЯ', trainingTitle: 'КОЖНА ДИТИНА.<br><span>ВЛАСНИЙ ШЛЯХ.</span>', trainingText: 'Ми бачимо не лише пояс і техніку. Ми бачимо особистість, потенціал і наступний досяжний крок.', trainingButton: 'Дізнатися про тренування', photoTall: 'Фокус починається з думки', photoWide: ['СПОРТИВНІ ЦІЛІ', 'Змагання та розвиток'],

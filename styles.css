@@ -53,7 +53,8 @@
 
 html[lang="ru"] .hero h1,html[lang="uk"] .hero h1{font-size:clamp(64px,8.5vw,132px)}
 @media(max-width:800px){
-  html[lang="ru"] .hero h1,html[lang="uk"] .hero h1{font-size:56px;line-height:1}
+  .hero h1{font-size:52px}
+  html[lang="ru"] .hero h1,html[lang="uk"] .hero h1{font-size:44px;line-height:1}
   html[lang="ru"] .hero-copy>p,html[lang="uk"] .hero-copy>p{font-size:13px;line-height:1.55;margin-top:20px;margin-bottom:22px}
   html[lang="ru"] .hero-actions,html[lang="uk"] .hero-actions{gap:12px}
   html[lang="ru"] .cta h2,html[lang="uk"] .cta h2{font-size:52px}

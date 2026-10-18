@@ -3,7 +3,7 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 
 /* Composition corrections after full-page visual QA */
-.hero h1{line-height:1.02}
+.hero h1{font-size:clamp(60px,7.6vw,116px);line-height:1.02}
 .hero-copy>p{margin-top:36px}
 .hero-media{background:#080808}
 .hero-media:before{content:none}
@@ -51,7 +51,7 @@
 .lang-switch{display:flex;align-items:center;gap:2px;margin-right:14px;border:1px solid rgba(255,255,255,.25);padding:3px}.lang-switch button{border:0;background:transparent;color:#fff;font:700 10px/1 Manrope,sans-serif;letter-spacing:.8px;padding:8px 7px;opacity:.55;transition:.25s}.lang-switch button:hover{opacity:1}.lang-switch button.active{background:var(--yellow);color:#080808;opacity:1}
 @media(max-width:800px){.lang-switch{margin-left:auto;margin-right:12px}.lang-switch button{padding:7px 6px}.menu{margin-left:0}}
 
-html[lang="ru"] .hero h1,html[lang="uk"] .hero h1{font-size:clamp(64px,8.5vw,132px)}
+html[lang="ru"] .hero h1,html[lang="uk"] .hero h1{font-size:clamp(58px,7vw,108px)}
 @media(max-width:800px){
   .hero h1{font-size:52px}
   html[lang="ru"] .hero h1,html[lang="uk"] .hero h1{font-size:44px;line-height:1}

@@ -37,3 +37,4 @@
 !assets/fonts/**
 !assets/vendor/
 !assets/vendor/**
+!_config.yml

@@ -15,7 +15,8 @@ for url in sorted(set(re.findall(r'https://fonts\.gstatic\.com/[^)]+',css))):
     css=css.replace(url,name)
 (fontdir/'fonts.css').write_text(css,encoding='utf-8')
 for font in ['anton','manrope']:
-    (fontdir/f'{font}-OFL.txt').write_bytes(fetch(f'https://raw.githubusercontent.com/google/fonts/main/ofl/{font}/OFL.txt'))
+    license_text=fetch(f'https://raw.githubusercontent.com/google/fonts/main/ofl/{font}/OFL.txt').decode()
+    (fontdir/f'{font}-OFL.txt').write_text('\n'.join(line.rstrip() for line in license_text.splitlines())+'\n',encoding='utf-8')
 for path in ['css/bootstrap.min.css','js/bootstrap.bundle.min.js']:
     content=fetch('https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/'+path).decode()
     content=re.sub(r'/\*# sourceMappingURL=.*?\*/','',content)

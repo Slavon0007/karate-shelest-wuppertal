@@ -1,0 +1,10 @@
+# Keep build inputs and internal reports out of the GitHub Pages output.
+exclude:
+  - src
+  - tools
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - SEO-PLAN.md
+  - SEO-REPORT.md

@@ -46,3 +46,6 @@ See `SEO-REPORT.md` for this implementation and competitor research; `SEO-PLAN.m
 The optional game is rendered in DE/RU/UK by `tools/runner-section.mjs`. `runner-game.js` is imported only after Start, relative to `script.js`, so language subdirectories use the same module. The local preview server explicitly serves JavaScript modules with the correct MIME type on Windows. Run `npm run test:game` against the preview server; set `SITE_URL` if using a different port.
 
 Space/Arrow Up and tapping jump; Escape and the Pause button pause. Animation stops when the tab loses focus or the canvas leaves view. The best score is stored locally in `shelest-runner-best`; no tracking or backend is used. Game-over CTAs are contained inside the game stage and use each page’s localized WhatsApp message. No part of the school information requires playing the game.
+
+
+The running cycle now uses six unmodified frames extracted from the user-supplied `src/photos/37lJP8S.gif` (60 ms each). `python tools/extract-runner.py` repacks them into a lossless atlas in `assets/game/` and verifies pixel equality against the GIF. The source atlas keeps its original black-on-white pixels; `runner-game.js` applies the yellow color and transparent background at runtime. The atlas and timing module load only after Start. The airborne flying-kick pose remains drawn in canvas.

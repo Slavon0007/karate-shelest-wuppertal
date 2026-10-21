@@ -1,9 +1,34 @@
-// Loaded only after the visitor presses Start. No assets or external requests.
-export function mountGame(root) {
+// Loaded only after Start; the small source-frame atlas is loaded at that point.
+import { runnerRun } from './assets/game/runner-run.js?v=gif1';
+
+async function prepareRunFrames() {
+  const source=new Image();
+  source.src=new URL('./assets/game/'+runnerRun.atlas,import.meta.url).href;
+  await source.decode();
+  const {crop,frameCount,frameWidth}=runnerRun;
+  const sheet=document.createElement('canvas');sheet.width=crop.width*frameCount;sheet.height=crop.height;
+  const context=sheet.getContext('2d');
+  if(!context)throw new Error('Canvas unavailable');
+  for(let frame=0;frame<frameCount;frame++){
+    context.drawImage(source,frame*frameWidth+crop.x,crop.y,crop.width,crop.height,frame*crop.width,0,crop.width,crop.height);
+  }
+  // White becomes transparent; the original silhouette and antialiased edges
+  // are retained as alpha, with the site's yellow applied by the renderer.
+  const pixels=context.getImageData(0,0,sheet.width,sheet.height);
+  for(let offset=0;offset<pixels.data.length;offset+=4){
+    const alpha=255-Math.round((pixels.data[offset]+pixels.data[offset+1]+pixels.data[offset+2])/3);
+    pixels.data[offset]=255;pixels.data[offset+1]=212;pixels.data[offset+2]=0;pixels.data[offset+3]=alpha;
+  }
+  context.putImageData(pixels,0,0);
+  return sheet;
+}
+
+export async function mountGame(root) {
   if (root.dataset.mounted) return;
   const canvas=root.querySelector('canvas');
   const ctx=canvas.getContext('2d');
   if (!ctx) throw new Error('Canvas unavailable');
+  const runSheet=await prepareRunFrames();
   root.dataset.mounted='true';
   const scoreEl=root.querySelector('[data-score]');
   const bestEl=root.querySelector('[data-best]');
@@ -36,34 +61,27 @@ export function mountGame(root) {
   }
   function drawRunner() {
     const x=playerX(), floor=height-44, airborne=y< -2;
-    const phase=elapsed*15, bob=airborne?0:Math.cos(phase*2)*1.5;
-    const top=floor-76+y+bob;
+    const top=floor-76+y;
     ctx.fillStyle='#ffd40022';ctx.beginPath();ctx.ellipse(x+3,floor+4,26,3,0,0,Math.PI*2);ctx.fill();
     ctx.strokeStyle=gold;ctx.fillStyle=gold;ctx.lineCap='round';ctx.lineJoin='round';
     if(airborne) {
       // Chamber the knee, extend a flying side kick, then fold for landing.
       const extension=Math.min(1,Math.max(0,(elapsed-jumpAt)/.12),Math.max(0,-y/28));
-      ctx.lineWidth=10;
+      ctx.lineWidth=8;
       limb([[x,top+50],[x-23,top+69],[x+3,top+65]]);
       limb([[x,top+50],[x+18+10*extension,top+50-7*extension],[x+7+49*extension,top+65-28*extension]]);
-      ctx.lineWidth=9;
+      ctx.lineWidth=7;
       limb([[x-9,top+30],[x-31,top+26],[x-14,top+42]]);
       limb([[x-9,top+30],[x+12,top+32],[x+33,top+30]]);
-      ctx.lineWidth=13;limb([[x-9,top+30],[x-5,top+41],[x,top+51]]);
-      ctx.beginPath();ctx.arc(x-2,top+12,10,0,Math.PI*2);ctx.fill();
+      ctx.lineWidth=8.5;limb([[x-9,top+30],[x-5,top+41],[x,top+51]]);
+      ctx.beginPath();ctx.arc(x-2,top+10,7.5,0,Math.PI*2);ctx.fill();
     } else {
-      // Opposed arms and legs reproduce a forward-leaning running silhouette.
-      const swing=Math.sin(phase);
-      ctx.lineWidth=9;
-      for(const direction of [-1,1]) {
-        const stride=swing*direction;
-        const lift=Math.max(0,-Math.cos(phase)*direction)*15;
-        limb([[x-7,top+47],[x-7+stride*19,top+59],[x-7+stride*32,top+75-lift],[x-2+stride*32,top+74-lift]]);
-      }
-      limb([[x+3,top+28],[x-12-swing*10,top+25+swing*3],[x-25-swing*9,top+39+swing*8]]);
-      limb([[x+3,top+28],[x+11+swing*5,top+43-swing*5],[x+24+swing*9,top+30-swing*7]]);
-      ctx.lineWidth=12;limb([[x+3,top+28],[x-7,top+47]]);
-      ctx.beginPath();ctx.arc(x+10,top+12,10,0,Math.PI*2);ctx.fill();
+      // Play the actual source GIF poses at their original frame durations.
+      let time=(elapsed*1000)%runnerRun.cycleMs,frame=0;
+      while(frame<runnerRun.frameCount-1&&time>=runnerRun.durations[frame]){time-=runnerRun.durations[frame];frame++;}
+      const {crop}=runnerRun,scale=80/crop.height;
+      const left=x+(crop.x-runnerRun.anchorX)*scale;
+      ctx.drawImage(runSheet,frame*crop.width,0,crop.width,crop.height,left,floor-80,crop.width*scale,80);
     }
   }
   function draw() {

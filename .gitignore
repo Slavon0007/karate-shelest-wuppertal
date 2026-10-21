@@ -41,3 +41,5 @@
 !assets/documents/
 !assets/documents/*.pdf
 !runner-game.js
+!assets/game/
+!assets/game/**

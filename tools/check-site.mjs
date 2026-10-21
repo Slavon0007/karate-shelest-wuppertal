@@ -21,7 +21,14 @@ try {
     assert.ok(document.querySelector('meta[name="description"]').getAttribute('content').length>80);
     const ids=[...document.querySelectorAll('[id]')].map(x=>x.id);assert.equal(new Set(ids).size,ids.length);
     for (const a of document.querySelectorAll('a[href^="#"]')) assert.ok(ids.includes(a.getAttribute('href').slice(1)));
-    JSON.parse(document.querySelector('script[type="application/ld+json"]').textContent);
+    const schema=JSON.parse(document.querySelector('script[type="application/ld+json"]').textContent);
+    assert.equal(schema.address.streetAddress,'Uellendahler Straße 23');
+    assert.equal(schema.address.postalCode,'42107');
+    assert.equal(schema.employee.name,'Oleksandr Shelest');
+    assert.deepEqual([...document.querySelectorAll('.schedule-card time')].map(el=>el.getAttribute('datetime')),['17:00','17:00','17:00','18:00','18:00','18:00']);
+    assert.equal(document.querySelectorAll('.carousel-item').length,11);
+    assert.equal(document.querySelectorAll('.gallery-thumbs button').length,11);
+    assert.ok(document.querySelector('.certificate-card a').getAttribute('href').endsWith('oleksandr-shelest-1-dan.pdf'));
     for (const width of [320,390,768,1024,1366]) {
       const page=await browser.newPage({viewport:{width,height:844},deviceScaleFactor:1});
       page.on('pageerror',e=>errors.push(`${lang}/${width}: ${e.message}`));
@@ -54,6 +61,11 @@ try {
       }
       // Ensure lazy images are actually requested, not just represented in markup.
       await page.locator('footer').scrollIntoViewIfNeeded();
+      if(width===390 || width===1366){
+        for (const section of ['zeiten','coach','anfahrt']) {
+          await page.locator('#'+section).screenshot({path:`.qa/${lang}-${width}-${section}.png`});
+        }
+      }
       report.push({lang,width,...metrics});await page.close();
     }
     const page=await browser.newPage({javaScriptEnabled:false,viewport:{width:390,height:844}});

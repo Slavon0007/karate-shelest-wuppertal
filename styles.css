@@ -122,3 +122,78 @@ h1,h2,h3{overflow-wrap:break-word}
  .gallery-caption h3{font-size:clamp(30px,8.5vw,52px);overflow-wrap:anywhere}
  footer .brand-text{font-size:16px}
 }
+
+/* Confirmed training groups, coach credentials and address. */
+.schedule{padding:100px 7vw;background:#111}
+.schedule h2,.location h2{font-size:clamp(42px,6vw,86px);line-height:1.08}
+.schedule-intro,.schedule-note{max-width:760px;color:#c7c7c2;line-height:1.8;margin:28px 0}
+.schedule-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:40px}
+.schedule-card{min-width:0;border:1px solid #3b3b3b;background:#090909}
+.schedule-card .schedule-photo{height:auto;width:100%;aspect-ratio:1.6;object-fit:contain;background:#151515}
+.schedule-card-copy{padding:30px}
+.schedule-card h3{font-size:26px;font-weight:800;color:var(--yellow);margin:0 0 22px}
+.schedule-card table{width:100%;border-collapse:collapse}
+.schedule-card th,.schedule-card td{padding:16px 0;border-bottom:1px solid #303030;font-size:16px}
+.schedule-card th{font-weight:600}.schedule-card td{text-align:right;font-size:26px;color:var(--yellow);font-weight:800}
+.poster-link,.document-link{display:inline-block;min-height:44px;padding:16px 0 0;color:var(--yellow);text-decoration:underline;text-underline-offset:4px;font-size:13px;line-height:1.6}
+.coach{align-items:start}
+.coach-image{height:auto;min-width:0}
+.coach-image>img{height:auto;max-height:720px;object-fit:contain;background:#171717}
+.archive-caption{font-size:12px;line-height:1.6;color:#bcbcb8;padding:14px 0;margin:0}
+.coach h2{font-size:clamp(42px,5vw,74px);line-height:1.08}
+.coach-copy{align-self:start}
+.coach-copy .section-index{margin-bottom:30px}
+.coach-details{margin-top:32px}
+.coach-details h3,.certificate-card h3{font-size:21px;font-weight:800;line-height:1.4;margin:28px 0 16px}
+.career-list>div{padding:16px 0;border-bottom:1px solid #363636}
+.career-list dt{color:var(--yellow);font-weight:800;margin-bottom:6px}
+.career-list dd{margin:0;color:#c2c2bd;font-size:14px;line-height:1.7}
+.coach-details blockquote{border-left:3px solid var(--yellow);padding:8px 0 8px 20px;font-size:17px;line-height:1.7;color:#e5e5df;margin:28px 0}
+.coach-copy .signature{font-family:Manrope,Arial,sans-serif;font-weight:800;font-size:24px;line-height:1.4;margin-top:32px}
+.certificate-card{margin-top:20px;padding:24px;border:1px solid #393939;background:#181818}
+.certificate-preview{display:block}.certificate-preview img{width:100%;height:auto;max-height:280px;object-fit:contain}
+.certificate-card p{font-size:13px;line-height:1.8;color:#bcbcb8;margin:0}
+.location{padding:100px 7vw;background:var(--white);color:var(--black);display:grid;grid-template-columns:1.2fr 1fr;gap:7vw;align-items:center}
+.location .section-index{color:#626262;margin-bottom:28px}
+.location h2 span{color:var(--black);background:var(--yellow);box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:0 .04em}
+.location p{line-height:1.8;max-width:600px;margin:28px 0 0}
+.address-card{border:1px solid #bcbcb8;padding:32px;min-width:0}
+.address-card>span{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:800}
+.address-card address{font-size:clamp(22px,2.2vw,32px);font-weight:800;line-height:1.5;margin:22px 0}
+.address-card .button{font-size:11px;max-width:100%;gap:12px;line-height:1.7;min-width:0}
+.location-phone{display:block;padding:18px 0 0;font-size:16px;text-decoration:underline;text-underline-offset:4px}
+.location :focus-visible{outline-color:#111}
+footer address{font-style:normal;font-size:12px;color:#c6c6c0;line-height:1.6;margin-bottom:8px}
+/* Full images and separate captions keep faces visible in landscape and portrait photos. */
+.gallery .carousel-inner{height:760px;max-height:none}
+.gallery .carousel-item>img{height:calc(100% - 156px);object-fit:contain;object-position:center;background:#111;filter:none}
+.gallery .carousel-item:after{content:none}
+.gallery-caption{position:static;max-width:none;min-height:156px;padding:22px 30px;background:#151515;border-top:1px solid #333}
+.gallery-caption h3{font-size:34px;line-height:1.15;margin:8px 0}
+.gallery-caption p{font-size:14px;line-height:1.6}
+.gallery-thumbs.carousel-indicators{display:flex;overflow-x:auto;justify-content:flex-start;padding-bottom:10px;scrollbar-color:var(--yellow) #222}
+.gallery-thumbs.carousel-indicators [data-bs-target]{flex:0 0 calc((100% - 36px)/4);height:100px}
+.gallery-thumbs img{object-fit:contain;background:#171717}
+@media(max-width:800px){
+ .schedule{padding:76px 20px}.schedule h2,.location h2{font-size:clamp(34px,9.4vw,56px);letter-spacing:-1px}
+ .schedule-grid{grid-template-columns:1fr;gap:22px}.schedule-card-copy{padding:22px}
+ .schedule-card h3{font-size:24px}.schedule-card th{font-size:14px}.schedule-card td{font-size:24px}
+ .coach h2{font-size:clamp(36px,10vw,58px)}.coach{gap:40px}
+ .coach-image>img{max-height:none}.certificate-card{padding:20px}.archive-caption{font-size:12px}
+ .location{padding:76px 20px;grid-template-columns:1fr;gap:32px}.address-card{padding:24px}
+ .gallery .carousel-inner{height:620px;min-height:0}
+ .gallery .carousel-item>img{height:calc(100% - 190px)}
+ .gallery-caption{min-height:190px;padding:20px}
+ .gallery-caption h3{font-size:clamp(26px,7.8vw,34px);overflow-wrap:normal}.gallery-caption p{font-size:13px}
+ .gallery-thumbs.carousel-indicators [data-bs-target]{flex-basis:calc((100% - 18px)/4);height:64px}
+}
+/* Keep gallery controls with captions, clear of faces. */
+.gallery .carousel-item>img{height:calc(100% - 176px)}
+.gallery-caption{min-height:176px}
+.gallery-caption>span{display:block;min-height:40px}
+.gallery .carousel-control-prev,.gallery .carousel-control-next{top:602px}
+@media(max-width:800px){
+ .gallery .carousel-item>img{height:calc(100% - 220px)}
+ .gallery-caption{min-height:220px}
+ .gallery .carousel-control-prev,.gallery .carousel-control-next{top:418px}
+}

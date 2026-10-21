@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import { parseHTML } from 'linkedom';
+import { renderSchoolDetails } from './school-details.mjs';
 
 const base = 'https://slavon0007.github.io/karate-shelest-wuppertal/';
 const paths = {de:'', ru:'ru/', uk:'uk/'};
@@ -73,13 +74,15 @@ for (const [lang, t] of Object.entries(translations)) {
   $('.cta-copy').insertBefore(note,$('.cta-copy .button'));
   const phone = document.createElement('a'); phone.className='contact-phone'; phone.href='tel:+4915730872694';phone.textContent=`${t.call}: +49 157 30872694`;
   $('.cta-copy').appendChild(phone);
-  all('a[href="https://wa.me/4915730872694"]').forEach(el=>el.setAttribute('href',`https://wa.me/4915730872694?text=${encodeURIComponent(t.whatsapp)}`));
   const skip = document.createElement('a');skip.className='skip-link';skip.href='#top';skip.textContent=t.skip;document.body.prepend(skip);
   $('#top').setAttribute('tabindex','-1');
   const schema = JSON.parse($('script[type="application/ld+json"]').textContent);
   schema['@id']=base+'#organization';schema.url=base;schema.description=t.schemaDescription;
   schema.logo=base+images['5262644864430580814.jpg'].variants[0].path;
   $('script[type="application/ld+json"]').textContent=JSON.stringify(schema);
+
+  renderSchoolDetails(document,t,prefix,images,base);
+  all('a[href="https://wa.me/4915730872694"]').forEach(el=>el.setAttribute('href',`https://wa.me/4915730872694?text=${encodeURIComponent(t.whatsapp)}`));
 
   all('img').forEach(img=>{
     const original=img.getAttribute('src'); const data=images[original]; if(!data)throw Error(`Unknown image ${original}`);
@@ -95,11 +98,11 @@ for (const [lang, t] of Object.entries(translations)) {
   all('link[rel="preconnect"]').forEach(el=>el.remove());
   all('link[rel="stylesheet"]').forEach(el=>{
     const href=el.getAttribute('href');
-    el.setAttribute('href',prefix+(href.includes('fonts.googleapis')?'assets/fonts/fonts.css':href.includes('bootstrap')?'assets/vendor/bootstrap.min.css':'styles.css?v=seo4'));
+    el.setAttribute('href',prefix+(href.includes('fonts.googleapis')?'assets/fonts/fonts.css':href.includes('bootstrap')?'assets/vendor/bootstrap.min.css':'styles.css?v=school-20261020'));
     el.removeAttribute('integrity');el.removeAttribute('crossorigin');
   });
   const icon=document.createElement('link');icon.setAttribute('rel','icon');icon.setAttribute('type','image/webp');icon.setAttribute('href',prefix+images['5262644864430580814.jpg'].variants[0].path);document.head.appendChild(icon);
-  const runtime = $('script[src^="script.js"]');runtime.setAttribute('src',prefix+'script.js?v=seo3');runtime.setAttribute('defer','');
+  const runtime = $('script[src^="script.js"]');runtime.setAttribute('src',prefix+'script.js?v=school-20261020');runtime.setAttribute('defer','');
   const bootstrap=$('script[src*="bootstrap.bundle"]');bootstrap.setAttribute('defer','');bootstrap.setAttribute('src',prefix+'assets/vendor/bootstrap.bundle.min.js');bootstrap.removeAttribute('integrity');bootstrap.removeAttribute('crossorigin');
   // Old shared links remain useful, while new links point to static pages.
   const legacy = document.createElement('script');legacy.setAttribute('src',prefix+'legacy-language.js?v=seo3');legacy.setAttribute('defer','');document.head.appendChild(legacy);

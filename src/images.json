@@ -260,5 +260,316 @@
         "bytes": 76400
       }
     ]
+  },
+  "src/photos/5380062883686851554.jpg": {
+    "originalBytes": 171802,
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "path": "assets/images/stundenplan-juengere-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 22640
+      },
+      {
+        "path": "assets/images/stundenplan-juengere-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 56226
+      },
+      {
+        "path": "assets/images/stundenplan-juengere-1024.webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 100998
+      },
+      {
+        "path": "assets/images/stundenplan-juengere-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 133884
+      }
+    ]
+  },
+  "src/photos/5380062883686851553.jpg": {
+    "originalBytes": 182949,
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "path": "assets/images/stundenplan-aeltere-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 23796
+      },
+      {
+        "path": "assets/images/stundenplan-aeltere-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 60838
+      },
+      {
+        "path": "assets/images/stundenplan-aeltere-1024.webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 111334
+      },
+      {
+        "path": "assets/images/stundenplan-aeltere-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 147534
+      }
+    ]
+  },
+  "src/photos/5386654082233212628.jpg": {
+    "originalBytes": 91375,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/karate-partnertraining-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 13212
+      },
+      {
+        "path": "assets/images/karate-partnertraining-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 34592
+      },
+      {
+        "path": "assets/images/karate-partnertraining-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 61412
+      }
+    ]
+  },
+  "src/photos/5386654082233212536.jpg": {
+    "originalBytes": 140676,
+    "width": 1280,
+    "height": 734,
+    "variants": [
+      {
+        "path": "assets/images/karate-juengere-gruppe-320.webp",
+        "width": 320,
+        "height": 184,
+        "bytes": 16674
+      },
+      {
+        "path": "assets/images/karate-juengere-gruppe-640.webp",
+        "width": 640,
+        "height": 367,
+        "bytes": 44592
+      },
+      {
+        "path": "assets/images/karate-juengere-gruppe-1024.webp",
+        "width": 1024,
+        "height": 587,
+        "bytes": 83528
+      },
+      {
+        "path": "assets/images/karate-juengere-gruppe-1280.webp",
+        "width": 1280,
+        "height": 734,
+        "bytes": 114914
+      }
+    ]
+  },
+  "src/photos/5386654082233212533.jpg": {
+    "originalBytes": 157112,
+    "width": 1280,
+    "height": 920,
+    "variants": [
+      {
+        "path": "assets/images/karate-aeltere-gruppe-320.webp",
+        "width": 320,
+        "height": 230,
+        "bytes": 18386
+      },
+      {
+        "path": "assets/images/karate-aeltere-gruppe-640.webp",
+        "width": 640,
+        "height": 460,
+        "bytes": 49104
+      },
+      {
+        "path": "assets/images/karate-aeltere-gruppe-1024.webp",
+        "width": 1024,
+        "height": 736,
+        "bytes": 89382
+      },
+      {
+        "path": "assets/images/karate-aeltere-gruppe-1280.webp",
+        "width": 1280,
+        "height": 920,
+        "bytes": 119150
+      }
+    ]
+  },
+  "src/photos/5386654082233212532.jpg": {
+    "originalBytes": 101685,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/karate-teamgeist-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 14250
+      },
+      {
+        "path": "assets/images/karate-teamgeist-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 39420
+      },
+      {
+        "path": "assets/images/karate-teamgeist-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 70798
+      }
+    ]
+  },
+  "src/photos/5386654082233212531.jpg": {
+    "originalBytes": 93236,
+    "width": 1280,
+    "height": 984,
+    "variants": [
+      {
+        "path": "assets/images/karate-beweglichkeit-320.webp",
+        "width": 320,
+        "height": 246,
+        "bytes": 9426
+      },
+      {
+        "path": "assets/images/karate-beweglichkeit-640.webp",
+        "width": 640,
+        "height": 492,
+        "bytes": 22754
+      },
+      {
+        "path": "assets/images/karate-beweglichkeit-1024.webp",
+        "width": 1024,
+        "height": 787,
+        "bytes": 41712
+      },
+      {
+        "path": "assets/images/karate-beweglichkeit-1280.webp",
+        "width": 1280,
+        "height": 984,
+        "bytes": 57362
+      }
+    ]
+  },
+  "src/photos/5386654082233212527.jpg": {
+    "originalBytes": 86242,
+    "width": 920,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/karate-technik-320.webp",
+        "width": 320,
+        "height": 445,
+        "bytes": 12584
+      },
+      {
+        "path": "assets/images/karate-technik-640.webp",
+        "width": 640,
+        "height": 890,
+        "bytes": 32876
+      },
+      {
+        "path": "assets/images/karate-technik-920.webp",
+        "width": 920,
+        "height": 1280,
+        "bytes": 54414
+      }
+    ]
+  },
+  "src/photos/5386654082233212522.jpg": {
+    "originalBytes": 98550,
+    "width": 814,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/karate-freundschaft-320.webp",
+        "width": 320,
+        "height": 503,
+        "bytes": 20222
+      },
+      {
+        "path": "assets/images/karate-freundschaft-640.webp",
+        "width": 640,
+        "height": 1006,
+        "bytes": 48402
+      },
+      {
+        "path": "assets/images/karate-freundschaft-814.webp",
+        "width": 814,
+        "height": 1280,
+        "bytes": 66084
+      }
+    ]
+  },
+  "src/photos/5386654082233212453.jpg": {
+    "originalBytes": 68335,
+    "width": 836,
+    "height": 1191,
+    "variants": [
+      {
+        "path": "assets/images/shelest-takenori-tanaka-320.webp",
+        "width": 320,
+        "height": 456,
+        "bytes": 12538
+      },
+      {
+        "path": "assets/images/shelest-takenori-tanaka-640.webp",
+        "width": 640,
+        "height": 912,
+        "bytes": 28456
+      },
+      {
+        "path": "assets/images/shelest-takenori-tanaka-836.webp",
+        "width": 836,
+        "height": 1191,
+        "bytes": 42180
+      }
+    ]
+  },
+  "src/photos/ukf-certificate.png": {
+    "originalBytes": 3371614,
+    "width": 1600,
+    "height": 1146,
+    "variants": [
+      {
+        "path": "assets/images/shelest-ukf-zertifikat-320.webp",
+        "width": 320,
+        "height": 229,
+        "bytes": 26714
+      },
+      {
+        "path": "assets/images/shelest-ukf-zertifikat-640.webp",
+        "width": 640,
+        "height": 458,
+        "bytes": 103958
+      },
+      {
+        "path": "assets/images/shelest-ukf-zertifikat-1024.webp",
+        "width": 1024,
+        "height": 733,
+        "bytes": 241978
+      },
+      {
+        "path": "assets/images/shelest-ukf-zertifikat-1600.webp",
+        "width": 1600,
+        "height": 1146,
+        "bytes": 488808
+      }
+    ]
   }
 }

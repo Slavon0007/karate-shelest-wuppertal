@@ -38,3 +38,5 @@
 !assets/vendor/
 !assets/vendor/**
 !_config.yml
+!assets/documents/
+!assets/documents/*.pdf

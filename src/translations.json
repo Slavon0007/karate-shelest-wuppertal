@@ -37,23 +37,23 @@
     "trainingIndex": "02 — TRAINING",
     "trainingTitle": "JEDES KIND.<br><span>EIN EIGENER WEG.</span>",
     "trainingText": "Unser Kindertraining in Wuppertal verbindet Karate-Technik mit Bewegung, Konzentration und respektvollem Miteinander. Wir berücksichtigen Alter und Trainingsstand und begleiten jedes Kind beim nächsten Schritt. Wer sportliche Ziele verfolgt, kann sich bei uns auch auf Wettkämpfe vorbereiten.",
-    "trainingButton": "Training entdecken",
-    "photoTall": "Fokus beginnt im Kopf",
+    "trainingButton": "Trainingszeiten ansehen",
+    "photoTall": "Gemeinsam wachsen",
     "photoWide": [
       "SPORTLICHE ZIELE",
       "Wettkampf & Entwicklung"
     ],
     "numberLabels": [
-      "% Aufmerksamkeit",
-      "Team",
-      "° Entwicklung"
+      "Jahre im Karate",
+      "Jahre Trainererfahrung",
+      "Dan · schwarzer Gürtel"
     ],
-    "numberText": "Vom ersten Training bis zum Wettkampf: Wir begleiten jeden Schritt.",
+    "numberText": "Erfahrung seit 1993, pädagogische Ausbildung und persönliche Begleitung jedes Schülers.",
     "coachIndex": "03 — TRAINER",
     "coachWords": "COACH<br>MENTOR<br>VORBILD",
-    "coachTitle": "ERFAHRUNG,<br><span>DIE MOTIVIERT.</span>",
-    "coachLead": "Professionelles Training mit Anspruch, Geduld und echtem Verständnis für Kinder.",
-    "coachText": "Technik ist nur der Anfang. Unser Trainer vermittelt Respekt, Selbstkontrolle und die Freude daran, jeden Tag ein bisschen besser zu werden.",
+    "coachTitle": "OLEKSANDR<br><span>SHELEST.</span>",
+    "coachLead": "Seit 1993 im Karate. Mehr als 20 Jahre Erfahrung als Trainer.",
+    "coachText": "Oleksandr Shelest verbindet über 30 Jahre Karate-Erfahrung mit einer pädagogischen Ausbildung und persönlicher Begleitung seiner Schüler. Im Training stehen saubere Technik, körperliche Entwicklung, Disziplin und Respekt im Mittelpunkt.",
     "coachSchool": "Karateschule Wuppertal",
     "galleryIndex": "04 — MOMENTE",
     "galleryLead": "Training. Wettkampf. Gemeinschaft.",
@@ -92,7 +92,7 @@
       ],
       [
         "Training abstimmen",
-        "Fragen Sie nach der passenden Gruppe, der Trainingszeit und dem genauen Trainingsort. Wir besprechen die Einzelheiten direkt mit Ihnen."
+        "Wir trainieren montags, mittwochs und freitags: jüngere Gruppe um 17:00 Uhr, ältere Gruppe um 18:00 Uhr. Vereinbaren Sie die passende Gruppe vorab."
       ],
       [
         "Gemeinsam kennenlernen",
@@ -115,7 +115,7 @@
       ],
       [
         "Wo und wann findet das Training statt?",
-        "Unser Angebot richtet sich an Kinder in Wuppertal. Den genauen Trainingsort und die aktuellen Zeiten teilen wir Ihnen bei der Terminabsprache mit."
+        "Uellendahler Straße 23, 42107 Wuppertal. Montag, Mittwoch und Freitag: jüngere Gruppe um 17:00 Uhr, ältere Gruppe um 18:00 Uhr. Bitte stimmen Sie das Probetraining vorab mit uns ab."
       ],
       [
         "Was steht beim Training im Mittelpunkt?",
@@ -131,7 +131,7 @@
     "scroll": "WEITER",
     "skip": "Zum Inhalt",
     "whatsapp": "Hallo! Ich möchte ein kostenloses Karate-Probetraining für mein Kind in Wuppertal vereinbaren. Welche Termine und Gruppen sind möglich?",
-    "schemaDescription": "Karate für Kinder in Wuppertal mit persönlicher Begleitung, Wettkampfvorbereitung und kostenlosem Probetraining.",
+    "schemaDescription": "Karate für Kinder bei Trainer Oleksandr Shelest in der Uellendahler Straße 23, Wuppertal. Jüngere und ältere Gruppe, kostenloses Probetraining.",
     "alts": {
       "hero-karate-v2.png": "Karateka bei einem dynamischen Kick",
       "5262644864430580967.jpg": "Junge Karateka beim Training",
@@ -141,8 +141,95 @@
       "5262644864430581031.jpg": "Karate-Gruppe im Freien",
       "5267440693632770126.jpg": "Junge Karateka",
       "5262644864430581032.jpg": "Karate-Team",
-      "5267440693632770117.jpg": "Karate-Training"
-    }
+      "5267440693632770117.jpg": "Karate-Training",
+      "src/photos/5386654082233212628.jpg": "Karate-Partnertraining im Trainingsraum",
+      "src/photos/5386654082233212536.jpg": "Die jüngere Karate-Gruppe im Trainingsraum",
+      "src/photos/5386654082233212533.jpg": "Die ältere Karate-Gruppe im Trainingsraum",
+      "src/photos/5386654082233212532.jpg": "Zwei junge Karateka mit roten und blauen Handschuhen",
+      "src/photos/5386654082233212531.jpg": "Junge Karateka bei einer Dehnübung",
+      "src/photos/5386654082233212527.jpg": "Karateka beim Techniktraining",
+      "src/photos/5386654082233212522.jpg": "Zwei junge Schüler beim Karate-Training",
+      "src/photos/5386654082233212453.jpg": "Oleksandr Shelest mit Takenori Tanaka auf einem Archivfoto",
+      "src/photos/ukf-certificate.png": "1. Dan · UKF-Zertifikat"
+    },
+    "coachName": "Oleksandr Shelest",
+    "coachRole": "Karate-Trainer",
+    "coachApproachTitle": "Erfahrung, die weitergegeben wird",
+    "coachApproach": "Sein Ziel ist, Kindern neben Karate-Technik auch Selbstvertrauen, Willenskraft und Ausdauer zu vermitteln. Jeder Schüler soll lernen, Herausforderungen anzunehmen und sich Schritt für Schritt weiterzuentwickeln.",
+    "coachQuote": "Karate ist ein Weg zu Selbstdisziplin, Respekt und stetiger Weiterentwicklung.",
+    "careerTitle": "Sportlicher Weg & Qualifikation",
+    "career": [
+      [
+        "1993",
+        "Beginn des Karate-Trainings."
+      ],
+      [
+        "2004",
+        "Prüfung zum schwarzen Gürtel, 1. Dan, bei japanischen Meistern."
+      ],
+      [
+        "Sportliche Erfolge",
+        "Mehrfacher ukrainischer Meister und Medaillengewinner; Teilnehmer und Medaillengewinner internationaler Turniere. Sporttitel „Meister des Sports“."
+      ],
+      [
+        "Pädagogik & Training",
+        "Pädagogische Ausbildung und mehr als 20 Jahre Tätigkeit als Trainer."
+      ]
+    ],
+    "coachPhotoCaption": "Oleksandr Shelest mit Takenori Tanaka · Archivfoto",
+    "certificateTitle": "1. Dan · UKF-Zertifikat",
+    "certificateText": "Das Zertifikat der Ukrainischen Karate-Föderation vom 26.05.2021 bestätigt den 1. Dan auf den Namen Oleksandr Shelest. Es dokumentiert die Registrierung bei der UKF; die erste Dan-Prüfung fand laut seiner Biografie 2004 statt.",
+    "certificateLink": "Zertifikat ansehen (PDF)",
+    "scheduleIndex": "TRAININGSZEITEN",
+    "scheduleTitle": "ZWEI GRUPPEN.<br><span>EIN GEMEINSAMES ZIEL.</span>",
+    "scheduleIntro": "Karate-Training in der Uellendahler Straße 23, 42107 Wuppertal. Die Zeiten gelten vor Ort in Wuppertal.",
+    "groupNames": [
+      "Jüngere Gruppe",
+      "Ältere Gruppe"
+    ],
+    "weekdays": [
+      "Montag",
+      "Mittwoch",
+      "Freitag"
+    ],
+    "scheduleNote": "Die passende Gruppe stimmen wir nach Alter und Trainingsstand mit Ihnen ab. Bitte vereinbaren Sie das kostenlose Probetraining vorab.",
+    "scheduleImage": "Stundenplan als Bild (Russisch)",
+    "scheduleNav": "Trainingszeiten",
+    "locationIndex": "ADRESSE & ANFAHRT",
+    "locationTitle": "UNSER TRAININGSORT<br><span>IN WUPPERTAL.</span>",
+    "locationText": "Sie finden unseren Trainingsort in der Uellendahler Straße 23. Vereinbaren Sie Ihr kostenloses Probetraining über WhatsApp oder telefonisch.",
+    "mapLink": "Route in Google Maps öffnen",
+    "addressLabel": "Trainingsadresse",
+    "galleryNew": [
+      [
+        "PARTNERTRAINING",
+        "Technik üben und aufeinander achten."
+      ],
+      [
+        "DIE JÜNGERE GRUPPE",
+        "Gemeinsam lernen und Freude an Bewegung entdecken."
+      ],
+      [
+        "DIE ÄLTERE GRUPPE",
+        "Als Team trainieren und neue Ziele verfolgen."
+      ],
+      [
+        "TEAMGEIST",
+        "Zusammen wachsen und einander unterstützen."
+      ],
+      [
+        "BEWEGLICHKEIT",
+        "Bewegung ist ein wichtiger Teil des Trainings."
+      ],
+      [
+        "TECHNIK IM FOKUS",
+        "Mit Aufmerksamkeit an der eigenen Technik arbeiten."
+      ],
+      [
+        "FREUNDSCHAFT",
+        "Gemeinsam macht Training Freude."
+      ]
+    ]
   },
   "ru": {
     "title": "Карате для детей в Вуппертале | Школа Shelest",
@@ -182,23 +269,23 @@
     "trainingIndex": "02 — ТРЕНИРОВКИ",
     "trainingTitle": "КАЖДЫЙ РЕБЁНОК.<br><span>СВОЙ ПУТЬ.</span>",
     "trainingText": "Детские тренировки в Вуппертале объединяют технику карате, движение, концентрацию и уважение друг к другу. Мы учитываем возраст и уровень подготовки и поддерживаем каждого ребёнка на его пути. Для детей со спортивными целями есть подготовка к соревнованиям.",
-    "trainingButton": "Узнать о тренировках",
-    "photoTall": "Фокус начинается с мысли",
+    "trainingButton": "Посмотреть расписание",
+    "photoTall": "Растём вместе",
     "photoWide": [
       "СПОРТИВНЫЕ ЦЕЛИ",
       "Соревнования и развитие"
     ],
     "numberLabels": [
-      "% внимания",
-      "Команда",
-      "° развития"
+      "лет в каратэ",
+      "лет тренерского опыта",
+      "дан · чёрный пояс"
     ],
-    "numberText": "От первой тренировки до соревнований: мы сопровождаем каждый шаг.",
+    "numberText": "Опыт с 1993 года, педагогическое образование и внимание к каждому ученику.",
     "coachIndex": "03 — ТРЕНЕР",
     "coachWords": "ТРЕНЕР<br>НАСТАВНИК<br>ПРИМЕР",
-    "coachTitle": "ОПЫТ,<br><span>КОТОРЫЙ МОТИВИРУЕТ.</span>",
-    "coachLead": "Профессиональные тренировки с высокими требованиями, терпением и настоящим пониманием детей.",
-    "coachText": "Техника — лишь начало. Наш тренер учит уважению, самоконтролю и радости от того, что каждый день ты становишься немного лучше.",
+    "coachTitle": "АЛЕКСАНДР<br><span>ШЕЛЕСТ.</span>",
+    "coachLead": "В каратэ с 1993 года. Более 20 лет тренерского опыта.",
+    "coachText": "Александр Шелест сочетает более 30 лет опыта в каратэ, педагогическое образование и индивидуальный подход к ученикам. На тренировках он уделяет особое внимание правильной технике, физическому развитию, дисциплине и уважению.",
     "coachSchool": "Школа карате в Вуппертале",
     "galleryIndex": "04 — МОМЕНТЫ",
     "galleryLead": "Тренировки. Соревнования. Сообщество.",
@@ -237,7 +324,7 @@
       ],
       [
         "Обсудите занятие",
-        "Уточните подходящую группу, время и точный адрес тренировки. Подробности обсудим с вами лично."
+        "Занимаемся по понедельникам, средам и пятницам: младшая группа в 17:00, старшая в 18:00. Заранее согласуйте подходящую группу."
       ],
       [
         "Познакомьтесь со школой",
@@ -260,7 +347,7 @@
       ],
       [
         "Где и когда проходят тренировки?",
-        "Школа предлагает занятия для детей в Вуппертале. Точный адрес и актуальное расписание сообщим при согласовании пробной тренировки."
+        "Uellendahler Straße 23, 42107 Wuppertal. Понедельник, среда и пятница: младшая группа — 17:00, старшая — 18:00. Пробное занятие согласуйте с нами заранее."
       ],
       [
         "На чём строятся занятия?",
@@ -276,7 +363,7 @@
     "scroll": "ДАЛЕЕ",
     "skip": "К содержанию",
     "whatsapp": "Здравствуйте! Хочу записать ребёнка на бесплатную пробную тренировку по карате в Вуппертале. Какие группы и даты доступны?",
-    "schemaDescription": "Карате для детей в Вуппертале: поддержка тренера, подготовка к соревнованиям и бесплатная пробная тренировка.",
+    "schemaDescription": "Карате для детей с тренером Александром Шелестом по адресу Uellendahler Straße 23, Вупперталь. Младшая и старшая группы, бесплатное пробное занятие.",
     "alts": {
       "hero-karate-v2.png": "Каратист выполняет удар ногой",
       "5262644864430580967.jpg": "Юные каратисты на тренировке",
@@ -286,8 +373,95 @@
       "5262644864430581031.jpg": "Группа карате на открытом воздухе",
       "5267440693632770126.jpg": "Юные каратисты",
       "5262644864430581032.jpg": "Команда карате",
-      "5267440693632770117.jpg": "Тренировка по карате"
-    }
+      "5267440693632770117.jpg": "Тренировка по карате",
+      "src/photos/5386654082233212628.jpg": "Парная тренировка по карате в зале",
+      "src/photos/5386654082233212536.jpg": "Младшая группа карате в зале",
+      "src/photos/5386654082233212533.jpg": "Старшая группа карате в зале",
+      "src/photos/5386654082233212532.jpg": "Два юных каратиста в красных и синих перчатках",
+      "src/photos/5386654082233212531.jpg": "Юная каратистка выполняет упражнение на растяжку",
+      "src/photos/5386654082233212527.jpg": "Каратистка на тренировке по технике",
+      "src/photos/5386654082233212522.jpg": "Два юных ученика на тренировке по карате",
+      "src/photos/5386654082233212453.jpg": "Александр Шелест с Танакой Такэнори на архивном фото",
+      "src/photos/ukf-certificate.png": "1 дан · сертификат UKF"
+    },
+    "coachName": "Александр Шелест",
+    "coachRole": "Тренер по каратэ",
+    "coachApproachTitle": "Опыт, который передаётся ученикам",
+    "coachApproach": "Цель тренера — не только обучить технике каратэ, но и помочь детям развить уверенность в себе, силу воли и настойчивость. Каждый ученик учится преодолевать трудности и двигаться вперёд в своём темпе.",
+    "coachQuote": "Каратэ — путь к самодисциплине, уважению и постоянному совершенствованию.",
+    "careerTitle": "Спортивный путь и квалификация",
+    "career": [
+      [
+        "1993",
+        "Начало занятий каратэ."
+      ],
+      [
+        "2004",
+        "Аттестация на чёрный пояс, 1 дан, японскими мастерами."
+      ],
+      [
+        "Спортивные достижения",
+        "Многократный чемпион и призёр Украины; участник и призёр международных турниров. Мастер спорта."
+      ],
+      [
+        "Педагогика и тренерская работа",
+        "Педагогическое образование и более 20 лет тренерского стажа."
+      ]
+    ],
+    "coachPhotoCaption": "Александр Шелест с Танакой Такэнори · архивное фото",
+    "certificateTitle": "1 дан · сертификат UKF",
+    "certificateText": "Сертификат Украинской федерации каратэ от 26.05.2021 подтверждает 1 дан на имя Олександра Шелеста и регистрацию в UKF. Первая аттестация на дан, согласно биографии тренера, состоялась в 2004 году.",
+    "certificateLink": "Посмотреть сертификат (PDF)",
+    "scheduleIndex": "РАСПИСАНИЕ",
+    "scheduleTitle": "ДВЕ ГРУППЫ.<br><span>ОБЩАЯ ЦЕЛЬ.</span>",
+    "scheduleIntro": "Тренировки по адресу Uellendahler Straße 23, 42107 Wuppertal. Указано местное время Вупперталя.",
+    "groupNames": [
+      "Младшая группа",
+      "Старшая группа"
+    ],
+    "weekdays": [
+      "Понедельник",
+      "Среда",
+      "Пятница"
+    ],
+    "scheduleNote": "Подходящую группу согласуем с вами с учётом возраста и подготовки ребёнка. На бесплатную пробную тренировку нужна предварительная запись.",
+    "scheduleImage": "Расписание в виде изображения",
+    "scheduleNav": "Расписание",
+    "locationIndex": "АДРЕС И МАРШРУТ",
+    "locationTitle": "НАШ ЗАЛ<br><span>В ВУППЕРТАЛЕ.</span>",
+    "locationText": "Зал находится по адресу Uellendahler Straße 23. Запишитесь на бесплатную пробную тренировку через WhatsApp или по телефону.",
+    "mapLink": "Построить маршрут в Google Maps",
+    "addressLabel": "Адрес зала",
+    "galleryNew": [
+      [
+        "ПАРНАЯ ТРЕНИРОВКА",
+        "Работа над техникой и внимание друг к другу."
+      ],
+      [
+        "МЛАДШАЯ ГРУППА",
+        "Учимся вместе и открываем радость движения."
+      ],
+      [
+        "СТАРШАЯ ГРУППА",
+        "Тренируемся в команде и ставим новые цели."
+      ],
+      [
+        "КОМАНДНЫЙ ДУХ",
+        "Растём вместе и поддерживаем друг друга."
+      ],
+      [
+        "ГИБКОСТЬ",
+        "Движение — важная часть тренировки."
+      ],
+      [
+        "ВНИМАНИЕ К ТЕХНИКЕ",
+        "Учимся выполнять движения внимательно и точно."
+      ],
+      [
+        "ДРУЖБА",
+        "Вместе тренироваться интереснее."
+      ]
+    ]
   },
   "uk": {
     "title": "Карате для дітей у Вупперталі | Школа Shelest",
@@ -327,23 +501,23 @@
     "trainingIndex": "02 — ТРЕНУВАННЯ",
     "trainingTitle": "КОЖНА ДИТИНА.<br><span>ВЛАСНИЙ ШЛЯХ.</span>",
     "trainingText": "Дитячі тренування у Вупперталі поєднують техніку карате, рух, зосередженість і повагу одне до одного. Ми враховуємо вік та рівень підготовки й підтримуємо кожну дитину на її шляху. Для дітей зі спортивними цілями є підготовка до змагань.",
-    "trainingButton": "Дізнатися про тренування",
-    "photoTall": "Фокус починається з думки",
+    "trainingButton": "Переглянути розклад",
+    "photoTall": "Зростаємо разом",
     "photoWide": [
       "СПОРТИВНІ ЦІЛІ",
       "Змагання та розвиток"
     ],
     "numberLabels": [
-      "% уваги",
-      "Команда",
-      "° розвитку"
+      "років у карате",
+      "років тренерського досвіду",
+      "дан · чорний пояс"
     ],
-    "numberText": "Від першого тренування до змагань: ми супроводжуємо кожен крок.",
+    "numberText": "Досвід із 1993 року, педагогічна освіта й увага до кожного учня.",
     "coachIndex": "03 — ТРЕНЕР",
     "coachWords": "ТРЕНЕР<br>НАСТАВНИК<br>ПРИКЛАД",
-    "coachTitle": "ДОСВІД,<br><span>ЩО МОТИВУЄ.</span>",
-    "coachLead": "Професійні тренування з високими вимогами, терпінням і справжнім розумінням дітей.",
-    "coachText": "Техніка — лише початок. Наш тренер навчає поваги, самоконтролю та радості від того, що щодня ти стаєш трохи кращим.",
+    "coachTitle": "ОЛЕКСАНДР<br><span>ШЕЛЕСТ.</span>",
+    "coachLead": "У карате з 1993 року. Понад 20 років тренерського досвіду.",
+    "coachText": "Олександр Шелест поєднує понад 30 років досвіду в карате, педагогічну освіту та індивідуальний підхід до учнів. На тренуваннях він приділяє особливу увагу правильній техніці, фізичному розвитку, дисципліні та повазі.",
     "coachSchool": "Школа карате у Вупперталі",
     "galleryIndex": "04 — МОМЕНТИ",
     "galleryLead": "Тренування. Змагання. Спільнота.",
@@ -382,7 +556,7 @@
       ],
       [
         "Обговоріть заняття",
-        "Уточніть відповідну групу, час і точну адресу тренування. Подробиці обговоримо з вами особисто."
+        "Займаємося щопонеділка, щосереди та щоп’ятниці: молодша група о 17:00, старша о 18:00. Заздалегідь узгодьте відповідну групу."
       ],
       [
         "Познайомтеся зі школою",
@@ -405,7 +579,7 @@
       ],
       [
         "Де й коли проходять тренування?",
-        "Школа пропонує заняття для дітей у Вупперталі. Точну адресу й актуальний розклад повідомимо під час узгодження пробного тренування."
+        "Uellendahler Straße 23, 42107 Wuppertal. Понеділок, середа та п’ятниця: молодша група — 17:00, старша — 18:00. Пробне заняття узгодьте з нами заздалегідь."
       ],
       [
         "На чому ґрунтуються заняття?",
@@ -421,7 +595,7 @@
     "scroll": "ДАЛІ",
     "skip": "До вмісту",
     "whatsapp": "Вітаю! Хочу записати дитину на безкоштовне пробне тренування з карате у Вупперталі. Які групи й дати доступні?",
-    "schemaDescription": "Карате для дітей у Вупперталі: підтримка тренера, підготовка до змагань і безкоштовне пробне тренування.",
+    "schemaDescription": "Карате для дітей із тренером Олександром Шелестом за адресою Uellendahler Straße 23, Вупперталь. Молодша й старша групи, безкоштовне пробне заняття.",
     "alts": {
       "hero-karate-v2.png": "Каратист виконує удар ногою",
       "5262644864430580967.jpg": "Юні каратисти на тренуванні",
@@ -431,7 +605,94 @@
       "5262644864430581031.jpg": "Група карате просто неба",
       "5267440693632770126.jpg": "Юні каратисти",
       "5262644864430581032.jpg": "Команда карате",
-      "5267440693632770117.jpg": "Тренування з карате"
-    }
+      "5267440693632770117.jpg": "Тренування з карате",
+      "src/photos/5386654082233212628.jpg": "Парне тренування з карате в залі",
+      "src/photos/5386654082233212536.jpg": "Молодша група карате в залі",
+      "src/photos/5386654082233212533.jpg": "Старша група карате в залі",
+      "src/photos/5386654082233212532.jpg": "Двоє юних каратистів у червоних і синіх рукавичках",
+      "src/photos/5386654082233212531.jpg": "Юна каратистка виконує вправу на розтяжку",
+      "src/photos/5386654082233212527.jpg": "Каратистка на тренуванні з техніки",
+      "src/photos/5386654082233212522.jpg": "Двоє юних учнів на тренуванні з карате",
+      "src/photos/5386654082233212453.jpg": "Олександр Шелест із Танакою Такенорі на архівному фото",
+      "src/photos/ukf-certificate.png": "1 дан · сертифікат UKF"
+    },
+    "coachName": "Олександр Шелест",
+    "coachRole": "Тренер із карате",
+    "coachApproachTitle": "Досвід, який передається учням",
+    "coachApproach": "Мета тренера — не лише навчити техніки карате, а й допомогти дітям розвинути впевненість у собі, силу волі та наполегливість. Кожен учень вчиться долати труднощі й рухатися вперед у власному темпі.",
+    "coachQuote": "Карате — шлях до самодисципліни, поваги та постійного вдосконалення.",
+    "careerTitle": "Спортивний шлях і кваліфікація",
+    "career": [
+      [
+        "1993",
+        "Початок занять карате."
+      ],
+      [
+        "2004",
+        "Атестація на чорний пояс, 1 дан, японськими майстрами."
+      ],
+      [
+        "Спортивні досягнення",
+        "Багаторазовий чемпіон і призер України; учасник і призер міжнародних турнірів. Майстер спорту."
+      ],
+      [
+        "Педагогіка та тренерська робота",
+        "Педагогічна освіта та понад 20 років тренерського стажу."
+      ]
+    ],
+    "coachPhotoCaption": "Олександр Шелест із Танакою Такенорі · архівне фото",
+    "certificateTitle": "1 дан · сертифікат UKF",
+    "certificateText": "Сертифікат Української федерації карате від 26.05.2021 підтверджує 1 дан на ім’я Олександра Шелеста та реєстрацію в UKF. Перша атестація на дан, згідно з біографією тренера, відбулася 2004 року.",
+    "certificateLink": "Переглянути сертифікат (PDF)",
+    "scheduleIndex": "РОЗКЛАД",
+    "scheduleTitle": "ДВІ ГРУПИ.<br><span>СПІЛЬНА МЕТА.</span>",
+    "scheduleIntro": "Тренування за адресою Uellendahler Straße 23, 42107 Wuppertal. Зазначено місцевий час Вупперталя.",
+    "groupNames": [
+      "Молодша група",
+      "Старша група"
+    ],
+    "weekdays": [
+      "Понеділок",
+      "Середа",
+      "П’ятниця"
+    ],
+    "scheduleNote": "Відповідну групу узгодимо з вами з урахуванням віку й підготовки дитини. На безкоштовне пробне тренування потрібен попередній запис.",
+    "scheduleImage": "Розклад у вигляді зображення (російською)",
+    "scheduleNav": "Розклад",
+    "locationIndex": "АДРЕСА ТА МАРШРУТ",
+    "locationTitle": "НАШ ЗАЛ<br><span>У ВУППЕРТАЛІ.</span>",
+    "locationText": "Зал розташований за адресою Uellendahler Straße 23. Запишіться на безкоштовне пробне тренування через WhatsApp або телефоном.",
+    "mapLink": "Прокласти маршрут у Google Maps",
+    "addressLabel": "Адреса залу",
+    "galleryNew": [
+      [
+        "ПАРНЕ ТРЕНУВАННЯ",
+        "Робота над технікою й увага одне до одного."
+      ],
+      [
+        "МОЛОДША ГРУПА",
+        "Вчимося разом і відкриваємо радість руху."
+      ],
+      [
+        "СТАРША ГРУПА",
+        "Тренуємося в команді й ставимо нові цілі."
+      ],
+      [
+        "КОМАНДНИЙ ДУХ",
+        "Зростаємо разом і підтримуємо одне одного."
+      ],
+      [
+        "ГНУЧКІСТЬ",
+        "Рух — важлива частина тренування."
+      ],
+      [
+        "УВАГА ДО ТЕХНІКИ",
+        "Вчимося виконувати рухи уважно й точно."
+      ],
+      [
+        "ДРУЖБА",
+        "Разом тренуватися цікавіше."
+      ]
+    ]
   }
 }

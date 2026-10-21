@@ -35,6 +35,7 @@ In another terminal run `npm test`. The test uses the already installed Chrome e
 - Each language has its own canonical, description and translated HTML, and reciprocal `hreflang` links. German is `x-default`.
 - Search Console verification is not configured. Add the supplied verification method once account access or a verification token is available.
 - `robots.txt` is controlled at the domain root on GitHub Pages, not in this project subdirectory.
-- Unknown address, age groups, schedule, regular prices and trainer credentials must be confirmed before publishing them. Free trial training has been confirmed by the user.
+- The user has supplied the training address (Uellendahler Straße 23, 42107 Wuppertal), group start times (Mon/Wed/Fri, 17:00 and 18:00), coach biography, photos and a UKF 1st Dan certificate. Exact age limits, session duration and regular prices are still unknown. Free trial training is confirmed.
+- `tools/school-details.mjs` renders the confirmed timetable, biography, certificate, new gallery photos and address in each language. New original photographs are kept in `src/photos/`, excluded from the public Pages output; optimized variants and the certificate PDF are in `assets/`.
 
 See `SEO-REPORT.md` for this implementation and competitor research; `SEO-PLAN.md` for remaining account and business-information tasks.

@@ -18,7 +18,7 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'Intersect
   const counts = new IntersectionObserver(entries => entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     const el = entry.target, target = Number(el.dataset.count), start = performance.now();
-    const tick = now => { const p = Math.min((now - start) / 1100, 1); el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(tick); };
+    const tick = now => { const p = Math.min((now - start) / 1100, 1); el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))) + (el.dataset.suffix || ''); if (p < 1) requestAnimationFrame(tick); };
     requestAnimationFrame(tick); counts.unobserve(el);
   }), { threshold: .6 });
   all('[data-count]').forEach(el => counts.observe(el));

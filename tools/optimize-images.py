@@ -17,6 +17,17 @@ sources = {
     '5267440693632770126.jpg': 'karateka',
     '5262644864430581032.jpg': 'karate-team',
     '5267440693632770117.jpg': 'probetraining',
+    'src/photos/5380062883686851554.jpg': 'stundenplan-juengere',
+    'src/photos/5380062883686851553.jpg': 'stundenplan-aeltere',
+    'src/photos/5386654082233212628.jpg': 'karate-partnertraining',
+    'src/photos/5386654082233212536.jpg': 'karate-juengere-gruppe',
+    'src/photos/5386654082233212533.jpg': 'karate-aeltere-gruppe',
+    'src/photos/5386654082233212532.jpg': 'karate-teamgeist',
+    'src/photos/5386654082233212531.jpg': 'karate-beweglichkeit',
+    'src/photos/5386654082233212527.jpg': 'karate-technik',
+    'src/photos/5386654082233212522.jpg': 'karate-freundschaft',
+    'src/photos/5386654082233212453.jpg': 'shelest-takenori-tanaka',
+    'src/photos/ukf-certificate.png': 'shelest-ukf-zertifikat',
 }
 manifest = {}
 for source, stem in sources.items():

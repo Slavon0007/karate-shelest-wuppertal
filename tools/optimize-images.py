@@ -11,6 +11,7 @@ sources = {
     '5262644864430580814.jpg': 'shelest-logo',
     '5262644864430580967.jpg': 'kindertraining',
     '5267440693632770122.jpg': 'wettkampf',
+    'src/photos/5389017027210583104.jpg': 'sportliche-ziele-partnertraining',
     '5262644864430581712.jpg': 'trainer-team',
     '5262872794050009856.jpg': 'training',
     '5262644864430581031.jpg': 'team-im-freien',

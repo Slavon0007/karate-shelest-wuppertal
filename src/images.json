@@ -571,5 +571,36 @@
         "bytes": 488808
       }
     ]
+  },
+  "src/photos/5389017027210583104.jpg": {
+    "originalBytes": 79617,
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "path": "assets/images/sportliche-ziele-partnertraining-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8974
+      },
+      {
+        "path": "assets/images/sportliche-ziele-partnertraining-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 22718
+      },
+      {
+        "path": "assets/images/sportliche-ziele-partnertraining-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 43188
+      },
+      {
+        "path": "assets/images/sportliche-ziele-partnertraining-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 60848
+      }
+    ]
   }
 }

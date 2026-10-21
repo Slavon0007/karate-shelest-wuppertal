@@ -36,7 +36,7 @@ if (gameStart) {
     gameStart.disabled = true;
     one('[data-game-error]').hidden = true;
     try {
-      const { mountGame } = await import('./runner-game.js?v=runner1');
+      const { mountGame } = await import('./runner-game.js?v=runner2');
       mountGame(one('.runner-game'));
     } catch {
       one('.runner-status').textContent = one('.runner-game').dataset.error;

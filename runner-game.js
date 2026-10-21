@@ -11,7 +11,7 @@ export function mountGame(root) {
   const pauseButton=root.querySelector('[data-pause]');
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   let width=960,height=320,dpr=1,frame=0,last=0,state='idle';
-  let y=0,velocity=0,elapsed=0,score=0,best=0,spawn=0.8,obstacles=[];
+  let y=0,velocity=0,elapsed=0,jumpAt=0,score=0,best=0,spawn=0.8,obstacles=[];
   const gold='#ffd400';
   try { best=Math.max(0,Number(localStorage.getItem('shelest-runner-best'))||0); } catch {}
   bestEl.textContent=String(best);
@@ -35,27 +35,36 @@ export function mountGame(root) {
     ctx.beginPath();points.forEach(([x,z],i)=>i?ctx.lineTo(x,z):ctx.moveTo(x,z));ctx.stroke();
   }
   function drawRunner() {
-    const x=playerX(), floor=height-44, top=floor-60+y;
-    const swing=y< -2?0:Math.sin(elapsed*18)*11;
-    ctx.fillStyle='#ffd40022';ctx.beginPath();ctx.ellipse(x+4,floor+4,22,3,0,0,Math.PI*2);ctx.fill();
-    ctx.strokeStyle=gold;ctx.fillStyle=gold;ctx.lineWidth=7;ctx.lineCap='round';ctx.lineJoin='round';
-    ctx.beginPath();ctx.arc(x,top+9,8,0,Math.PI*2);ctx.fill();
-    limb([[x,top+24],[x+2,top+39]]);
-    if(y< -2) {
-      limb([[x+1,top+38],[x+20,top+46],[x+31,top+36]]);
-      limb([[x+1,top+38],[x-12,top+49],[x-23,top+45]]);
-      limb([[x,top+25],[x+14,top+27],[x+22,top+17]]);
-      limb([[x-1,top+25],[x-14,top+32],[x-21,top+24]]);
+    const x=playerX(), floor=height-44, airborne=y< -2;
+    const phase=elapsed*15, bob=airborne?0:Math.cos(phase*2)*1.5;
+    const top=floor-76+y+bob;
+    ctx.fillStyle='#ffd40022';ctx.beginPath();ctx.ellipse(x+3,floor+4,26,3,0,0,Math.PI*2);ctx.fill();
+    ctx.strokeStyle=gold;ctx.fillStyle=gold;ctx.lineCap='round';ctx.lineJoin='round';
+    if(airborne) {
+      // Chamber the knee, extend a flying side kick, then fold for landing.
+      const extension=Math.min(1,Math.max(0,(elapsed-jumpAt)/.12),Math.max(0,-y/28));
+      ctx.lineWidth=10;
+      limb([[x,top+50],[x-23,top+69],[x+3,top+65]]);
+      limb([[x,top+50],[x+18+10*extension,top+50-7*extension],[x+7+49*extension,top+65-28*extension]]);
+      ctx.lineWidth=9;
+      limb([[x-9,top+30],[x-31,top+26],[x-14,top+42]]);
+      limb([[x-9,top+30],[x+12,top+32],[x+33,top+30]]);
+      ctx.lineWidth=13;limb([[x-9,top+30],[x-5,top+41],[x,top+51]]);
+      ctx.beginPath();ctx.arc(x-2,top+12,10,0,Math.PI*2);ctx.fill();
     } else {
-      limb([[x+2,top+39],[x+10+swing,top+49],[x+14+swing,top+59]]);
-      limb([[x+2,top+39],[x-9-swing,top+48],[x-14-swing,top+58]]);
-      limb([[x,top+24],[x-12-swing*.5,top+31],[x-21-swing*.5,top+23]]);
-      limb([[x,top+24],[x+12+swing*.5,top+29],[x+20+swing*.5,top+18]]);
+      // Opposed arms and legs reproduce a forward-leaning running silhouette.
+      const swing=Math.sin(phase);
+      ctx.lineWidth=9;
+      for(const direction of [-1,1]) {
+        const stride=swing*direction;
+        const lift=Math.max(0,-Math.cos(phase)*direction)*15;
+        limb([[x-7,top+47],[x-7+stride*19,top+59],[x-7+stride*32,top+75-lift],[x-2+stride*32,top+74-lift]]);
+      }
+      limb([[x+3,top+28],[x-12-swing*10,top+25+swing*3],[x-25-swing*9,top+39+swing*8]]);
+      limb([[x+3,top+28],[x+11+swing*5,top+43-swing*5],[x+24+swing*9,top+30-swing*7]]);
+      ctx.lineWidth=12;limb([[x+3,top+28],[x-7,top+47]]);
+      ctx.beginPath();ctx.arc(x+10,top+12,10,0,Math.PI*2);ctx.fill();
     }
-    ctx.strokeStyle='#090909';ctx.lineWidth=3;limb([[x-5,top+34],[x+7,top+35]]);
-    ctx.strokeStyle=gold;ctx.lineWidth=2;limb([[x+5,top+36],[x+11,top+44]]);
-    // Headband tail is drawn, rather than using a sprite download.
-    ctx.lineWidth=3;limb([[x-7,top+6],[x-18,top+3],[x-23,top+7]]);
   }
   function draw() {
     ctx.setTransform(dpr,0,0,dpr,0,0);
@@ -92,7 +101,7 @@ export function mountGame(root) {
     for(const obstacle of obstacles){
       obstacle.x-=speed*dt;
       if(!obstacle.passed&&obstacle.x+obstacle.w<x-13){obstacle.passed=true;score+=10;scoreEl.textContent=String(score);}
-      if(x+12>obstacle.x+2&&x-12<obstacle.x+obstacle.w-2&&floor+y-4>floor-obstacle.h+3&&floor-56+y<floor){endRound();break;}
+      if(x+12>obstacle.x+2&&x-12<obstacle.x+obstacle.w-2&&floor+y-4>floor-obstacle.h+3&&floor-72+y<floor){endRound();break;}
     }
     obstacles=obstacles.filter(obstacle=>obstacle.x+obstacle.w> -10);
   }
@@ -110,7 +119,7 @@ export function mountGame(root) {
     setState('playing');status.textContent=root.dataset.running;
     canvas.focus({preventScroll:true});last=performance.now();frame=requestAnimationFrame(tick);
   }
-  function jump(){if(state==='playing'&&y===0)velocity=-625;}
+  function jump(){if(state==='playing'&&y===0){velocity=-625;jumpAt=elapsed;}}
   function pause(){if(state!=='playing')return;setState('paused');status.textContent=root.querySelector('[data-panel="paused"] h3').textContent;draw();}
   canvas.addEventListener('keydown',event=>{
     if(event.code==='Space'||event.code==='ArrowUp'){

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { parseHTML } from 'linkedom';
 import { renderSchoolDetails } from './school-details.mjs';
+import { renderRunner } from './runner-section.mjs';
 
 const base = 'https://slavon0007.github.io/karate-shelest-wuppertal/';
 const paths = {de:'', ru:'ru/', uk:'uk/'};
@@ -82,6 +83,7 @@ for (const [lang, t] of Object.entries(translations)) {
   $('script[type="application/ld+json"]').textContent=JSON.stringify(schema);
 
   renderSchoolDetails(document,t,prefix,images,base);
+  renderRunner(document,lang,prefix);
   all('a[href="https://wa.me/4915730872694"]').forEach(el=>el.setAttribute('href',`https://wa.me/4915730872694?text=${encodeURIComponent(t.whatsapp)}`));
 
   all('img').forEach(img=>{
@@ -98,11 +100,11 @@ for (const [lang, t] of Object.entries(translations)) {
   all('link[rel="preconnect"]').forEach(el=>el.remove());
   all('link[rel="stylesheet"]').forEach(el=>{
     const href=el.getAttribute('href');
-    el.setAttribute('href',prefix+(href.includes('fonts.googleapis')?'assets/fonts/fonts.css':href.includes('bootstrap')?'assets/vendor/bootstrap.min.css':'styles.css?v=school-20261020'));
+    el.setAttribute('href',prefix+(href.includes('fonts.googleapis')?'assets/fonts/fonts.css':href.includes('bootstrap')?'assets/vendor/bootstrap.min.css':'styles.css?v=runner1'));
     el.removeAttribute('integrity');el.removeAttribute('crossorigin');
   });
   const icon=document.createElement('link');icon.setAttribute('rel','icon');icon.setAttribute('type','image/webp');icon.setAttribute('href',prefix+images['5262644864430580814.jpg'].variants[0].path);document.head.appendChild(icon);
-  const runtime = $('script[src^="script.js"]');runtime.setAttribute('src',prefix+'script.js?v=school-20261020');runtime.setAttribute('defer','');
+  const runtime = $('script[src^="script.js"]');runtime.setAttribute('src',prefix+'script.js?v=runner1');runtime.setAttribute('defer','');
   const bootstrap=$('script[src*="bootstrap.bundle"]');bootstrap.setAttribute('defer','');bootstrap.setAttribute('src',prefix+'assets/vendor/bootstrap.bundle.min.js');bootstrap.removeAttribute('integrity');bootstrap.removeAttribute('crossorigin');
   // Old shared links remain useful, while new links point to static pages.
   const legacy = document.createElement('script');legacy.setAttribute('src',prefix+'legacy-language.js?v=seo3');legacy.setAttribute('defer','');document.head.appendChild(legacy);

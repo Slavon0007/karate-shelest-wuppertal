@@ -40,3 +40,4 @@
 !_config.yml
 !assets/documents/
 !assets/documents/*.pdf
+!runner-game.js

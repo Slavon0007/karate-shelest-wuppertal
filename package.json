@@ -7,6 +7,8 @@
   "private": true,
   "scripts": {
     "build": "node tools/build.mjs",
-    "test": "node tools/check-site.mjs"
+    "test": "node tools/check-site.mjs",
+    "test:game": "node tools/check-runner.mjs",
+    "serve": "python tools/serve.py"
   }
 }

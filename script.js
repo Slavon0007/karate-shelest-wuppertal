@@ -27,3 +27,22 @@ const glow = one('.cursor-glow');
 if (glow && window.matchMedia('(pointer: fine) and (prefers-reduced-motion: no-preference)').matches) {
   window.addEventListener('pointermove', e => { glow.style.left = e.clientX + 'px'; glow.style.top = e.clientY + 'px'; }, {passive:true});
 }
+
+const gameStart = one('[data-game-start]');
+if (gameStart) {
+  gameStart.hidden = false;
+  gameStart.addEventListener('click', async () => {
+    if (gameStart.disabled) return;
+    gameStart.disabled = true;
+    one('[data-game-error]').hidden = true;
+    try {
+      const { mountGame } = await import('./runner-game.js?v=runner1');
+      mountGame(one('.runner-game'));
+    } catch {
+      one('.runner-status').textContent = one('.runner-game').dataset.error;
+      one('[data-game-error]').textContent = one('.runner-game').dataset.error;
+      one('[data-game-error]').hidden = false;
+      gameStart.disabled = false;
+    }
+  });
+}

@@ -18,7 +18,7 @@ Project and dependencies: `D:\карате`.
 Set-Location D:\карате
 npm ci --cache D:/карате/.npm-cache
 npm run build
-python -m http.server 8765 --bind 127.0.0.1
+python tools/serve.py
 ```
 
 In another terminal run `npm test`. The test uses the already installed Chrome executable and does not install a browser. Reports and screenshots go to `.qa/`, excluded from Git. Set `SITE_URL` to test a deployment; the default is the local server.
@@ -39,3 +39,10 @@ In another terminal run `npm test`. The test uses the already installed Chrome e
 - `tools/school-details.mjs` renders the confirmed timetable, biography, certificate, new gallery photos and address in each language. New original photographs are kept in `src/photos/`, excluded from the public Pages output; optimized variants and the certificate PDF are in `assets/`.
 
 See `SEO-REPORT.md` for this implementation and competitor research; `SEO-PLAN.md` for remaining account and business-information tasks.
+
+
+## Karate runner
+
+The optional game is rendered in DE/RU/UK by `tools/runner-section.mjs`. `runner-game.js` is imported only after Start, relative to `script.js`, so language subdirectories use the same module. The local preview server explicitly serves JavaScript modules with the correct MIME type on Windows. Run `npm run test:game` against the preview server; set `SITE_URL` if using a different port.
+
+Space/Arrow Up and tapping jump; Escape and the Pause button pause. Animation stops when the tab loses focus or the canvas leaves view. The best score is stored locally in `shelest-runner-best`; no tracking or backend is used. Game-over CTAs are contained inside the game stage and use each page’s localized WhatsApp message. No part of the school information requires playing the game.

@@ -602,5 +602,192 @@
         "bytes": 60848
       }
     ]
+  },
+  "src/photos/5386654082233212523.jpg": {
+    "originalBytes": 95297,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-karate-einstieg-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 14574
+      },
+      {
+        "path": "assets/images/galerie-karate-einstieg-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 37628
+      },
+      {
+        "path": "assets/images/galerie-karate-einstieg-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 65300
+      }
+    ]
+  },
+  "src/photos/5388789338109321541.jpg": {
+    "originalBytes": 75612,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-freude-am-training-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 10820
+      },
+      {
+        "path": "assets/images/galerie-freude-am-training-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 26514
+      },
+      {
+        "path": "assets/images/galerie-freude-am-training-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 46002
+      }
+    ]
+  },
+  "src/photos/5388789338109321543.jpg": {
+    "originalBytes": 86778,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-kampfgeist-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 12246
+      },
+      {
+        "path": "assets/images/galerie-kampfgeist-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 32970
+      },
+      {
+        "path": "assets/images/galerie-kampfgeist-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 59084
+      }
+    ]
+  },
+  "src/photos/5388789338109321529.jpg": {
+    "originalBytes": 95787,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-konzentration-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 13518
+      },
+      {
+        "path": "assets/images/galerie-konzentration-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 35162
+      },
+      {
+        "path": "assets/images/galerie-konzentration-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 61134
+      }
+    ]
+  },
+  "src/photos/5391268827024267734.jpg": {
+    "originalBytes": 148931,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-gemeinsame-ziele-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 24520
+      },
+      {
+        "path": "assets/images/galerie-gemeinsame-ziele-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 63558
+      },
+      {
+        "path": "assets/images/galerie-gemeinsame-ziele-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 110940
+      }
+    ]
+  },
+  "src/photos/5391268827024267738.jpg": {
+    "originalBytes": 152278,
+    "width": 1102,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-starkes-team-320.webp",
+        "width": 320,
+        "height": 372,
+        "bytes": 21252
+      },
+      {
+        "path": "assets/images/galerie-starkes-team-640.webp",
+        "width": 640,
+        "height": 743,
+        "bytes": 52976
+      },
+      {
+        "path": "assets/images/galerie-starkes-team-1024.webp",
+        "width": 1024,
+        "height": 1189,
+        "bytes": 94318
+      },
+      {
+        "path": "assets/images/galerie-starkes-team-1102.webp",
+        "width": 1102,
+        "height": 1280,
+        "bytes": 103702
+      }
+    ]
+  },
+  "src/photos/5386654082233212524.jpg": {
+    "originalBytes": 144701,
+    "width": 1280,
+    "height": 910,
+    "variants": [
+      {
+        "path": "assets/images/galerie-karate-kindergruppe-320.webp",
+        "width": 320,
+        "height": 228,
+        "bytes": 18344
+      },
+      {
+        "path": "assets/images/galerie-karate-kindergruppe-640.webp",
+        "width": 640,
+        "height": 455,
+        "bytes": 47024
+      },
+      {
+        "path": "assets/images/galerie-karate-kindergruppe-1024.webp",
+        "width": 1024,
+        "height": 728,
+        "bytes": 79638
+      },
+      {
+        "path": "assets/images/galerie-karate-kindergruppe-1280.webp",
+        "width": 1280,
+        "height": 910,
+        "bytes": 103762
+      }
+    ]
   }
 }

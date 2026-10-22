@@ -27,13 +27,16 @@ export function renderSchoolDetails(document, t, prefix, images, base) {
   const nav=document.createElement('a');nav.href='#zeiten';nav.textContent=t.scheduleNav;$('.nav nav').insertBefore(nav,$('.nav nav a[href="#coach"]'));
   $('.experience-copy .button').setAttribute('href','#zeiten');
 
-  const newPhotos=['5386654082233212628','5386654082233212536','5386654082233212533','5386654082233212532','5386654082233212531','5386654082233212527','5386654082233212522'];
+  const newPhotos=['5386654082233212523','5388789338109321541','5388789338109321543','5388789338109321529','5391268827024267734','5391268827024267738','5386654082233212524'];
+  $('.carousel-inner').innerHTML='';
+  $('.gallery-thumbs').innerHTML='';
   newPhotos.forEach((id,i)=>{
-    const index=i+4;const source='src/photos/'+id+'.jpg';const [heading,description]=t.galleryNew[i];
-    const slide=document.createElement('div');slide.className='carousel-item';
+    const index=i;const source='src/photos/'+id+'.jpg';const [heading,description]=t.gallery[i];
+    const slide=document.createElement('div');slide.className='carousel-item'+(i===0?' active':'');
     slide.innerHTML=`${image(source,'d-block w-100')}<div class="gallery-caption"><span></span><h3>${escape(heading)}</h3><p>${escape(description)}</p></div>`;
     $('.carousel-inner').appendChild(slide);
     const thumb=document.createElement('button');thumb.type='button';thumb.setAttribute('data-bs-target','#clubGallery');thumb.setAttribute('data-bs-slide-to',String(index));thumb.setAttribute('aria-label',`${t.image} ${index+1}`);thumb.innerHTML=image(source);
+    if(i===0){thumb.className='active';thumb.setAttribute('aria-current','true');}
     thumb.querySelector('img').alt='';$('.gallery-thumbs').appendChild(thumb);
   });
   const slides=[...document.querySelectorAll('.carousel-item')];

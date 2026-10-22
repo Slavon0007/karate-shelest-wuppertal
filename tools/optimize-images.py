@@ -29,6 +29,13 @@ sources = {
     'src/photos/5386654082233212522.jpg': 'karate-freundschaft',
     'src/photos/5386654082233212453.jpg': 'shelest-takenori-tanaka',
     'src/photos/ukf-certificate.png': 'shelest-ukf-zertifikat',
+    'src/photos/5386654082233212523.jpg': 'galerie-karate-einstieg',
+    'src/photos/5388789338109321541.jpg': 'galerie-freude-am-training',
+    'src/photos/5388789338109321543.jpg': 'galerie-kampfgeist',
+    'src/photos/5388789338109321529.jpg': 'galerie-konzentration',
+    'src/photos/5391268827024267734.jpg': 'galerie-gemeinsame-ziele',
+    'src/photos/5391268827024267738.jpg': 'galerie-starkes-team',
+    'src/photos/5386654082233212524.jpg': 'galerie-karate-kindergruppe',
 }
 manifest = {}
 for source, stem in sources.items():

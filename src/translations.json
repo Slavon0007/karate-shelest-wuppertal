@@ -60,20 +60,32 @@
     "galleryTitle": "ENERGIE.<br><span>GEMEINSCHAFT.</span>",
     "gallery": [
       [
-        "DER ERSTE SCHRITT",
-        "Selbstvertrauen beginnt mit dem Mut, etwas Neues zu versuchen."
+        "DER EIGENE WEG",
+        "Schritt für Schritt Neues lernen."
+      ],
+      [
+        "FREUDE AM TRAINING",
+        "Mit Interesse und Freude dabei sein."
+      ],
+      [
+        "BEREIT FÜRS TRAINING",
+        "Technik üben und Selbstvertrauen entwickeln."
+      ],
+      [
+        "KONZENTRATION",
+        "Aufmerksam sein und den nächsten Schritt vorbereiten."
+      ],
+      [
+        "GEMEINSAME ZIELE",
+        "Zusammen trainieren und einander unterstützen."
       ],
       [
         "EIN STARKES TEAM",
-        "Gemeinsam trainieren, wachsen und Erfolge feiern."
+        "Gemeinschaft und Respekt gehören zum Training."
       ],
       [
-        "FOKUS & TECHNIK",
-        "Jede Bewegung bringt uns dem nächsten Ziel näher."
-      ],
-      [
-        "GEMEINSAM STARK",
-        "Respekt verbindet uns — im Dojo und darüber hinaus."
+        "UNSERE KARATE-GRUPPE",
+        "Gemeinsam lernen, wachsen und Sport erleben."
       ]
     ],
     "prev": "Vorheriges Bild",
@@ -151,7 +163,14 @@
       "src/photos/5386654082233212522.jpg": "Zwei junge Schüler beim Karate-Training",
       "src/photos/5386654082233212453.jpg": "Oleksandr Shelest mit Takenori Tanaka auf einem Archivfoto",
       "src/photos/ukf-certificate.png": "1. Dan · UKF-Zertifikat",
-      "src/photos/5389017027210583104.jpg": "Zwei Karateka beim Partnertraining im Trainingsraum"
+      "src/photos/5389017027210583104.jpg": "Zwei Karateka beim Partnertraining im Trainingsraum",
+      "src/photos/5386654082233212523.jpg": "Junger Karateka im weißen Karateanzug mit erhobener Faust",
+      "src/photos/5388789338109321541.jpg": "Karate-Schülerin mit roten Handschuhen im Trainingsraum",
+      "src/photos/5388789338109321543.jpg": "Junger Karateka mit roten Handschuhen und Mundschutz",
+      "src/photos/5388789338109321529.jpg": "Karate-Schülerin mit rotem Gürtel und roten Handschuhen",
+      "src/photos/5391268827024267734.jpg": "Drei Karate-Schülerinnen beim gemeinsamen Training",
+      "src/photos/5391268827024267738.jpg": "Karate-Gruppe mit roten und blauen Handschuhen im Trainingsraum",
+      "src/photos/5386654082233212524.jpg": "Kindergruppe in weißen Karateanzügen im Trainingsraum"
     },
     "coachName": "Oleksandr Shelest",
     "coachRole": "Karate-Trainer",
@@ -200,37 +219,7 @@
     "locationTitle": "UNSER TRAININGSORT<br><span>IN WUPPERTAL.</span>",
     "locationText": "Sie finden unseren Trainingsort in der Uellendahler Straße 23. Vereinbaren Sie Ihr kostenloses Probetraining über WhatsApp oder telefonisch.",
     "mapLink": "Route in Google Maps öffnen",
-    "addressLabel": "Trainingsadresse",
-    "galleryNew": [
-      [
-        "PARTNERTRAINING",
-        "Technik üben und aufeinander achten."
-      ],
-      [
-        "DIE JÜNGERE GRUPPE",
-        "Gemeinsam lernen und Freude an Bewegung entdecken."
-      ],
-      [
-        "DIE ÄLTERE GRUPPE",
-        "Als Team trainieren und neue Ziele verfolgen."
-      ],
-      [
-        "TEAMGEIST",
-        "Zusammen wachsen und einander unterstützen."
-      ],
-      [
-        "BEWEGLICHKEIT",
-        "Bewegung ist ein wichtiger Teil des Trainings."
-      ],
-      [
-        "TECHNIK IM FOKUS",
-        "Mit Aufmerksamkeit an der eigenen Technik arbeiten."
-      ],
-      [
-        "FREUNDSCHAFT",
-        "Gemeinsam macht Training Freude."
-      ]
-    ]
+    "addressLabel": "Trainingsadresse"
   },
   "ru": {
     "title": "Карате для детей в Вуппертале | Школа Shelest",
@@ -293,20 +282,32 @@
     "galleryTitle": "ЭНЕРГИЯ.<br><span>СООБЩЕСТВО.</span>",
     "gallery": [
       [
-        "ПЕРВЫЙ ШАГ",
-        "Уверенность начинается со смелости попробовать что-то новое."
+        "СВОЙ ПУТЬ",
+        "Шаг за шагом учимся новому."
+      ],
+      [
+        "РАДОСТЬ ТРЕНИРОВОК",
+        "Занимаемся с интересом и удовольствием."
+      ],
+      [
+        "ГОТОВНОСТЬ К ТРЕНИРОВКЕ",
+        "Работаем над техникой и уверенностью в себе."
+      ],
+      [
+        "ВНИМАНИЕ И ФОКУС",
+        "Учимся быть внимательными и готовиться к следующему шагу."
+      ],
+      [
+        "ВМЕСТЕ К ЦЕЛИ",
+        "Тренируемся вместе и поддерживаем друг друга."
       ],
       [
         "СИЛЬНАЯ КОМАНДА",
-        "Тренируемся, растём и празднуем успехи вместе."
+        "Общение и уважение — часть каждой тренировки."
       ],
       [
-        "ФОКУС И ТЕХНИКА",
-        "Каждое движение приближает нас к следующей цели."
-      ],
-      [
-        "СИЛЬНЕЕ ВМЕСТЕ",
-        "Уважение объединяет нас — в додзё и за его пределами."
+        "НАША ГРУППА КАРАТЕ",
+        "Вместе учимся, растём и открываем мир спорта."
       ]
     ],
     "prev": "Предыдущее фото",
@@ -384,7 +385,14 @@
       "src/photos/5386654082233212522.jpg": "Два юных ученика на тренировке по карате",
       "src/photos/5386654082233212453.jpg": "Александр Шелест с Танакой Такэнори на архивном фото",
       "src/photos/ukf-certificate.png": "1 дан · сертификат UKF",
-      "src/photos/5389017027210583104.jpg": "Две каратистки на парной тренировке в зале"
+      "src/photos/5389017027210583104.jpg": "Две каратистки на парной тренировке в зале",
+      "src/photos/5386654082233212523.jpg": "Юный каратист в белом кимоно с поднятым кулаком",
+      "src/photos/5388789338109321541.jpg": "Ученица карате в красных перчатках в зале",
+      "src/photos/5388789338109321543.jpg": "Юный каратист в красных перчатках и с капой",
+      "src/photos/5388789338109321529.jpg": "Ученица карате с красным поясом и красными перчатками",
+      "src/photos/5391268827024267734.jpg": "Три ученицы карате на совместной тренировке",
+      "src/photos/5391268827024267738.jpg": "Группа карате в красных и синих перчатках в зале",
+      "src/photos/5386654082233212524.jpg": "Детская группа в белых кимоно в тренировочном зале"
     },
     "coachName": "Александр Шелест",
     "coachRole": "Тренер по каратэ",
@@ -433,37 +441,7 @@
     "locationTitle": "НАШ ЗАЛ<br><span>В ВУППЕРТАЛЕ.</span>",
     "locationText": "Зал находится по адресу Uellendahler Straße 23. Запишитесь на бесплатную пробную тренировку через WhatsApp или по телефону.",
     "mapLink": "Построить маршрут в Google Maps",
-    "addressLabel": "Адрес зала",
-    "galleryNew": [
-      [
-        "ПАРНАЯ ТРЕНИРОВКА",
-        "Работа над техникой и внимание друг к другу."
-      ],
-      [
-        "МЛАДШАЯ ГРУППА",
-        "Учимся вместе и открываем радость движения."
-      ],
-      [
-        "СТАРШАЯ ГРУППА",
-        "Тренируемся в команде и ставим новые цели."
-      ],
-      [
-        "КОМАНДНЫЙ ДУХ",
-        "Растём вместе и поддерживаем друг друга."
-      ],
-      [
-        "ГИБКОСТЬ",
-        "Движение — важная часть тренировки."
-      ],
-      [
-        "ВНИМАНИЕ К ТЕХНИКЕ",
-        "Учимся выполнять движения внимательно и точно."
-      ],
-      [
-        "ДРУЖБА",
-        "Вместе тренироваться интереснее."
-      ]
-    ]
+    "addressLabel": "Адрес зала"
   },
   "uk": {
     "title": "Карате для дітей у Вупперталі | Школа Shelest",
@@ -526,20 +504,32 @@
     "galleryTitle": "ЕНЕРГІЯ.<br><span>СПІЛЬНОТА.</span>",
     "gallery": [
       [
-        "ПЕРШИЙ КРОК",
-        "Впевненість починається зі сміливості спробувати щось нове."
+        "ВЛАСНИЙ ШЛЯХ",
+        "Крок за кроком вчимося нового."
+      ],
+      [
+        "РАДІСТЬ ТРЕНУВАНЬ",
+        "Займаємося з інтересом і задоволенням."
+      ],
+      [
+        "ГОТОВНІСТЬ ДО ТРЕНУВАННЯ",
+        "Працюємо над технікою та впевненістю в собі."
+      ],
+      [
+        "УВАГА Й ЗОСЕРЕДЖЕНІСТЬ",
+        "Вчимося бути уважними й готуватися до наступного кроку."
+      ],
+      [
+        "РАЗОМ ДО МЕТИ",
+        "Тренуємося разом і підтримуємо одне одного."
       ],
       [
         "СИЛЬНА КОМАНДА",
-        "Тренуємося, зростаємо й святкуємо успіхи разом."
+        "Спілкування та повага — частина кожного тренування."
       ],
       [
-        "ФОКУС І ТЕХНІКА",
-        "Кожен рух наближає нас до наступної мети."
-      ],
-      [
-        "СИЛЬНІШІ РАЗОМ",
-        "Повага об’єднує нас — у додзьо й за його межами."
+        "НАША ГРУПА КАРАТЕ",
+        "Разом вчимося, зростаємо й відкриваємо світ спорту."
       ]
     ],
     "prev": "Попереднє фото",
@@ -617,7 +607,14 @@
       "src/photos/5386654082233212522.jpg": "Двоє юних учнів на тренуванні з карате",
       "src/photos/5386654082233212453.jpg": "Олександр Шелест із Танакою Такенорі на архівному фото",
       "src/photos/ukf-certificate.png": "1 дан · сертифікат UKF",
-      "src/photos/5389017027210583104.jpg": "Дві каратистки на парному тренуванні в залі"
+      "src/photos/5389017027210583104.jpg": "Дві каратистки на парному тренуванні в залі",
+      "src/photos/5386654082233212523.jpg": "Юний каратист у білому кімоно з піднятим кулаком",
+      "src/photos/5388789338109321541.jpg": "Учениця карате в червоних рукавичках у залі",
+      "src/photos/5388789338109321543.jpg": "Юний каратист у червоних рукавичках і з капою",
+      "src/photos/5388789338109321529.jpg": "Учениця карате з червоним поясом і червоними рукавичками",
+      "src/photos/5391268827024267734.jpg": "Три учениці карате на спільному тренуванні",
+      "src/photos/5391268827024267738.jpg": "Група карате в червоних і синіх рукавичках у залі",
+      "src/photos/5386654082233212524.jpg": "Дитяча група в білих кімоно у тренувальному залі"
     },
     "coachName": "Олександр Шелест",
     "coachRole": "Тренер із карате",
@@ -666,36 +663,6 @@
     "locationTitle": "НАШ ЗАЛ<br><span>У ВУППЕРТАЛІ.</span>",
     "locationText": "Зал розташований за адресою Uellendahler Straße 23. Запишіться на безкоштовне пробне тренування через WhatsApp або телефоном.",
     "mapLink": "Прокласти маршрут у Google Maps",
-    "addressLabel": "Адреса залу",
-    "galleryNew": [
-      [
-        "ПАРНЕ ТРЕНУВАННЯ",
-        "Робота над технікою й увага одне до одного."
-      ],
-      [
-        "МОЛОДША ГРУПА",
-        "Вчимося разом і відкриваємо радість руху."
-      ],
-      [
-        "СТАРША ГРУПА",
-        "Тренуємося в команді й ставимо нові цілі."
-      ],
-      [
-        "КОМАНДНИЙ ДУХ",
-        "Зростаємо разом і підтримуємо одне одного."
-      ],
-      [
-        "ГНУЧКІСТЬ",
-        "Рух — важлива частина тренування."
-      ],
-      [
-        "УВАГА ДО ТЕХНІКИ",
-        "Вчимося виконувати рухи уважно й точно."
-      ],
-      [
-        "ДРУЖБА",
-        "Разом тренуватися цікавіше."
-      ]
-    ]
+    "addressLabel": "Адреса залу"
   }
 }

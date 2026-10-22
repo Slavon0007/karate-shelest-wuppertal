@@ -36,6 +36,13 @@ sources = {
     'src/photos/5391268827024267734.jpg': 'galerie-gemeinsame-ziele',
     'src/photos/5391268827024267738.jpg': 'galerie-starkes-team',
     'src/photos/5386654082233212524.jpg': 'galerie-karate-kindergruppe',
+    'src/photos/5391041137923007175.jpg': 'galerie-medaillen-team',
+    'src/photos/5391041137923007174.jpg': 'galerie-trainer-erfolge',
+    'src/photos/5391041137923007173.jpg': 'galerie-team-am-pool',
+    'src/photos/5391041137923007172.jpg': 'galerie-training-im-freien',
+    'src/photos/5391041137923007171.jpg': 'galerie-teamzusammenhalt',
+    'src/photos/5386654082233212526.jpg': 'galerie-dehnung',
+    'src/photos/5386654082233212538.jpg': 'galerie-junge-karatekas',
 }
 manifest = {}
 for source, stem in sources.items():

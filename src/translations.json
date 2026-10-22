@@ -86,6 +86,42 @@
       [
         "UNSERE KARATE-GRUPPE",
         "Gemeinsam lernen, wachsen und Sport erleben."
+      ],
+      [
+        "GEMEINSAME ERFOLGE",
+        "Trainer und Schüler mit Medaillen und Pokalen."
+      ],
+      [
+        "ERFAHRUNG UND RÜCKHALT",
+        "Sportliche Momente mit dem Trainer."
+      ],
+      [
+        "GEMEINSAM ALS TEAM",
+        "Gemeinsame Erinnerungen auch außerhalb der Halle."
+      ],
+      [
+        "KARATE IM FREIEN",
+        "Trainer und Schüler gemeinsam in der Natur."
+      ],
+      [
+        "TEAMGEIST",
+        "Karate verbindet und lässt Freundschaften wachsen."
+      ],
+      [
+        "ZUSAMMEN TRAINIEREN",
+        "Erste Schritte im Karate mit Freunden."
+      ],
+      [
+        "TECHNIK UND SELBSTVERTRAUEN",
+        "Die Haltung üben und neue Aufgaben angehen."
+      ],
+      [
+        "BEWEGLICHKEIT UND BALANCE",
+        "Dehnübungen gehören zur Vorbereitung."
+      ],
+      [
+        "ERSTE SCHRITTE IM KARATE",
+        "Junge Schülerinnen üben die Grundstellung."
       ]
     ],
     "prev": "Vorheriges Bild",
@@ -159,8 +195,8 @@
       "src/photos/5386654082233212533.jpg": "Die ältere Karate-Gruppe im Trainingsraum",
       "src/photos/5386654082233212532.jpg": "Zwei junge Karateka mit roten und blauen Handschuhen",
       "src/photos/5386654082233212531.jpg": "Junge Karateka bei einer Dehnübung",
-      "src/photos/5386654082233212527.jpg": "Karateka beim Techniktraining",
-      "src/photos/5386654082233212522.jpg": "Zwei junge Schüler beim Karate-Training",
+      "src/photos/5386654082233212527.jpg": "Die Haltung üben und neue Aufgaben angehen.",
+      "src/photos/5386654082233212522.jpg": "Erste Schritte im Karate mit Freunden.",
       "src/photos/5386654082233212453.jpg": "Oleksandr Shelest mit Takenori Tanaka auf einem Archivfoto",
       "src/photos/ukf-certificate.png": "1. Dan · UKF-Zertifikat",
       "src/photos/5389017027210583104.jpg": "Zwei Karateka beim Partnertraining im Trainingsraum",
@@ -170,7 +206,14 @@
       "src/photos/5388789338109321529.jpg": "Karate-Schülerin mit rotem Gürtel und roten Handschuhen",
       "src/photos/5391268827024267734.jpg": "Drei Karate-Schülerinnen beim gemeinsamen Training",
       "src/photos/5391268827024267738.jpg": "Karate-Gruppe mit roten und blauen Handschuhen im Trainingsraum",
-      "src/photos/5386654082233212524.jpg": "Kindergruppe in weißen Karateanzügen im Trainingsraum"
+      "src/photos/5386654082233212524.jpg": "Kindergruppe in weißen Karateanzügen im Trainingsraum",
+      "src/photos/5391041137923007175.jpg": "Trainer und Schüler mit Medaillen und Pokalen.",
+      "src/photos/5391041137923007174.jpg": "Sportliche Momente mit dem Trainer.",
+      "src/photos/5391041137923007173.jpg": "Gemeinsame Erinnerungen auch außerhalb der Halle.",
+      "src/photos/5391041137923007172.jpg": "Trainer und Schüler gemeinsam in der Natur.",
+      "src/photos/5391041137923007171.jpg": "Karate verbindet und lässt Freundschaften wachsen.",
+      "src/photos/5386654082233212526.jpg": "Dehnübungen gehören zur Vorbereitung.",
+      "src/photos/5386654082233212538.jpg": "Junge Schülerinnen üben die Grundstellung."
     },
     "coachName": "Oleksandr Shelest",
     "coachRole": "Karate-Trainer",
@@ -308,6 +351,42 @@
       [
         "НАША ГРУППА КАРАТЕ",
         "Вместе учимся, растём и открываем мир спорта."
+      ],
+      [
+        "ОБЩИЕ ДОСТИЖЕНИЯ",
+        "Тренер и ученики с медалями и кубками."
+      ],
+      [
+        "ОПЫТ И ПОДДЕРЖКА",
+        "Спортивные моменты вместе с тренером."
+      ],
+      [
+        "КОМАНДА ВМЕСТЕ",
+        "Общие воспоминания за пределами зала."
+      ],
+      [
+        "КАРАТЭ НА СВЕЖЕМ ВОЗДУХЕ",
+        "Тренер и ученики на природе."
+      ],
+      [
+        "КОМАНДНЫЙ ДУХ",
+        "Каратэ объединяет и помогает находить друзей."
+      ],
+      [
+        "ТРЕНИРУЕМСЯ ВМЕСТЕ",
+        "Первые шаги в каратэ с поддержкой друзей."
+      ],
+      [
+        "ТЕХНИКА И УВЕРЕННОСТЬ",
+        "Отрабатываем стойку и готовимся к новым задачам."
+      ],
+      [
+        "ГИБКОСТЬ И БАЛАНС",
+        "Упражнения на растяжку — часть подготовки."
+      ],
+      [
+        "ПЕРВЫЕ ШАГИ В КАРАТЭ",
+        "Юные ученицы осваивают базовую стойку."
       ]
     ],
     "prev": "Предыдущее фото",
@@ -381,8 +460,8 @@
       "src/photos/5386654082233212533.jpg": "Старшая группа карате в зале",
       "src/photos/5386654082233212532.jpg": "Два юных каратиста в красных и синих перчатках",
       "src/photos/5386654082233212531.jpg": "Юная каратистка выполняет упражнение на растяжку",
-      "src/photos/5386654082233212527.jpg": "Каратистка на тренировке по технике",
-      "src/photos/5386654082233212522.jpg": "Два юных ученика на тренировке по карате",
+      "src/photos/5386654082233212527.jpg": "Отрабатываем стойку и готовимся к новым задачам.",
+      "src/photos/5386654082233212522.jpg": "Первые шаги в каратэ с поддержкой друзей.",
       "src/photos/5386654082233212453.jpg": "Александр Шелест с Танакой Такэнори на архивном фото",
       "src/photos/ukf-certificate.png": "1 дан · сертификат UKF",
       "src/photos/5389017027210583104.jpg": "Две каратистки на парной тренировке в зале",
@@ -392,7 +471,14 @@
       "src/photos/5388789338109321529.jpg": "Ученица карате с красным поясом и красными перчатками",
       "src/photos/5391268827024267734.jpg": "Три ученицы карате на совместной тренировке",
       "src/photos/5391268827024267738.jpg": "Группа карате в красных и синих перчатках в зале",
-      "src/photos/5386654082233212524.jpg": "Детская группа в белых кимоно в тренировочном зале"
+      "src/photos/5386654082233212524.jpg": "Детская группа в белых кимоно в тренировочном зале",
+      "src/photos/5391041137923007175.jpg": "Тренер и ученики с медалями и кубками.",
+      "src/photos/5391041137923007174.jpg": "Спортивные моменты вместе с тренером.",
+      "src/photos/5391041137923007173.jpg": "Общие воспоминания за пределами зала.",
+      "src/photos/5391041137923007172.jpg": "Тренер и ученики на природе.",
+      "src/photos/5391041137923007171.jpg": "Каратэ объединяет и помогает находить друзей.",
+      "src/photos/5386654082233212526.jpg": "Упражнения на растяжку — часть подготовки.",
+      "src/photos/5386654082233212538.jpg": "Юные ученицы осваивают базовую стойку."
     },
     "coachName": "Александр Шелест",
     "coachRole": "Тренер по каратэ",
@@ -530,6 +616,42 @@
       [
         "НАША ГРУПА КАРАТЕ",
         "Разом вчимося, зростаємо й відкриваємо світ спорту."
+      ],
+      [
+        "СПІЛЬНІ ДОСЯГНЕННЯ",
+        "Тренер і учні з медалями та кубками."
+      ],
+      [
+        "ДОСВІД І ПІДТРИМКА",
+        "Спортивні миті разом із тренером."
+      ],
+      [
+        "КОМАНДА РАЗОМ",
+        "Спільні спогади поза межами залу."
+      ],
+      [
+        "КАРАТЕ ПРОСТО НЕБА",
+        "Тренер і учні разом на природі."
+      ],
+      [
+        "КОМАНДНИЙ ДУХ",
+        "Карате об’єднує та допомагає знаходити друзів."
+      ],
+      [
+        "ТРЕНУЄМОСЯ РАЗОМ",
+        "Перші кроки в карате за підтримки друзів."
+      ],
+      [
+        "ТЕХНІКА І ВПЕВНЕНІСТЬ",
+        "Відпрацьовуємо стійку та готуємося до нових завдань."
+      ],
+      [
+        "ГНУЧКІСТЬ І БАЛАНС",
+        "Вправи на розтягування — частина підготовки."
+      ],
+      [
+        "ПЕРШІ КРОКИ В КАРАТЕ",
+        "Юні учениці опановують базову стійку."
       ]
     ],
     "prev": "Попереднє фото",
@@ -603,8 +725,8 @@
       "src/photos/5386654082233212533.jpg": "Старша група карате в залі",
       "src/photos/5386654082233212532.jpg": "Двоє юних каратистів у червоних і синіх рукавичках",
       "src/photos/5386654082233212531.jpg": "Юна каратистка виконує вправу на розтяжку",
-      "src/photos/5386654082233212527.jpg": "Каратистка на тренуванні з техніки",
-      "src/photos/5386654082233212522.jpg": "Двоє юних учнів на тренуванні з карате",
+      "src/photos/5386654082233212527.jpg": "Відпрацьовуємо стійку та готуємося до нових завдань.",
+      "src/photos/5386654082233212522.jpg": "Перші кроки в карате за підтримки друзів.",
       "src/photos/5386654082233212453.jpg": "Олександр Шелест із Танакою Такенорі на архівному фото",
       "src/photos/ukf-certificate.png": "1 дан · сертифікат UKF",
       "src/photos/5389017027210583104.jpg": "Дві каратистки на парному тренуванні в залі",
@@ -614,7 +736,14 @@
       "src/photos/5388789338109321529.jpg": "Учениця карате з червоним поясом і червоними рукавичками",
       "src/photos/5391268827024267734.jpg": "Три учениці карате на спільному тренуванні",
       "src/photos/5391268827024267738.jpg": "Група карате в червоних і синіх рукавичках у залі",
-      "src/photos/5386654082233212524.jpg": "Дитяча група в білих кімоно у тренувальному залі"
+      "src/photos/5386654082233212524.jpg": "Дитяча група в білих кімоно у тренувальному залі",
+      "src/photos/5391041137923007175.jpg": "Тренер і учні з медалями та кубками.",
+      "src/photos/5391041137923007174.jpg": "Спортивні миті разом із тренером.",
+      "src/photos/5391041137923007173.jpg": "Спільні спогади поза межами залу.",
+      "src/photos/5391041137923007172.jpg": "Тренер і учні разом на природі.",
+      "src/photos/5391041137923007171.jpg": "Карате об’єднує та допомагає знаходити друзів.",
+      "src/photos/5386654082233212526.jpg": "Вправи на розтягування — частина підготовки.",
+      "src/photos/5386654082233212538.jpg": "Юні учениці опановують базову стійку."
     },
     "coachName": "Олександр Шелест",
     "coachRole": "Тренер із карате",

@@ -26,8 +26,8 @@ try {
     assert.equal(schema.address.postalCode,'42107');
     assert.equal(schema.employee.name,'Oleksandr Shelest');
     assert.deepEqual([...document.querySelectorAll('.schedule-card time')].map(el=>el.getAttribute('datetime')),['17:00','17:00','17:00','18:00','18:00','18:00']);
-    assert.equal(document.querySelectorAll('.carousel-item').length,7);
-    assert.equal(document.querySelectorAll('.gallery-thumbs button').length,7);
+    assert.equal(document.querySelectorAll('.carousel-item').length,16);
+    assert.equal(document.querySelectorAll('.gallery-thumbs button').length,16);
     assert.ok(document.querySelector('.certificate-card a').getAttribute('href').endsWith('oleksandr-shelest-1-dan.pdf'));
     for (const width of [320,390,768,1024,1366]) {
       const page=await browser.newPage({viewport:{width,height:844},deviceScaleFactor:1});

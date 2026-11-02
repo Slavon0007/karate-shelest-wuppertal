@@ -29,9 +29,9 @@ In another terminal run `npm test`. The test uses the already installed Chrome e
 
 ## SEO
 
-- German: `/karate-shelest-wuppertal/`
-- Russian: `/karate-shelest-wuppertal/ru/`
-- Ukrainian: `/karate-shelest-wuppertal/uk/`
+- German: `https://karate-shelest.de/`
+- Russian: `https://karate-shelest.de/ru/`
+- Ukrainian: `https://karate-shelest.de/uk/`
 - Each language has its own canonical, description and translated HTML, and reciprocal `hreflang` links. German is `x-default`.
 - Search Console verification is not configured. Add the supplied verification method once account access or a verification token is available.
 - `robots.txt` is controlled at the domain root on GitHub Pages, not in this project subdirectory.

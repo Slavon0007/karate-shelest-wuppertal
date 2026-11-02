@@ -3,7 +3,7 @@ import { parseHTML } from 'linkedom';
 import { renderSchoolDetails } from './school-details.mjs';
 import { renderRunner } from './runner-section.mjs';
 
-const base = 'https://slavon0007.github.io/karate-shelest-wuppertal/';
+const base = 'https://karate-shelest.de/';
 const paths = {de:'', ru:'ru/', uk:'uk/'};
 const translations = JSON.parse(fs.readFileSync('src/translations.json', 'utf8'));
 const images = JSON.parse(fs.readFileSync('src/images.json', 'utf8'));
@@ -35,6 +35,7 @@ for (const [lang, t] of Object.entries(translations)) {
   $('meta[property="og:description"]').setAttribute('content', t.description);
   $('meta[property="og:locale"]').setAttribute('content', {de:'de_DE',ru:'ru_RU',uk:'uk_UA'}[lang]);
   $('meta[property="og:url"]').setAttribute('content', base + paths[lang]);
+  $('meta[property="og:image"]').setAttribute('content', base + images['hero-karate-v2.png'].variants.at(-1).path);
   $('link[rel="canonical"]').setAttribute('href', base + paths[lang]);
   for (const code of ['de','ru','uk','x-default']) {
     const link = document.createElement('link');

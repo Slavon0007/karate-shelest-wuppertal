@@ -16,7 +16,7 @@ try {
     assert.equal(document.documentElement.lang,lang);
     assert.equal(document.querySelectorAll('h1').length,1);
     assert.equal(document.querySelectorAll('link[hreflang]').length,4);
-    assert.ok(document.querySelector('link[rel="canonical"]').getAttribute('href').endsWith('/karate-shelest-wuppertal/'+path));
+    assert.ok(document.querySelector('link[rel="canonical"]').getAttribute('href')=== 'https://karate-shelest.de/'+path);
     assert.equal(document.querySelectorAll('.training-info details').length,6);
     assert.ok(document.querySelector('meta[name="description"]').getAttribute('content').length>80);
     const ids=[...document.querySelectorAll('[id]')].map(x=>x.id);assert.equal(new Set(ids).size,ids.length);

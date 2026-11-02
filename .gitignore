@@ -43,3 +43,6 @@
 !runner-game.js
 !assets/game/
 !assets/game/**
+
+!CNAME
+!robots.txt

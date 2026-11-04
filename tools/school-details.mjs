@@ -17,8 +17,7 @@ export function renderSchoolDetails(document, t, prefix, images, base) {
     const el=document.querySelectorAll('.numbers strong')[i];
     el.dataset.count=String(number);el.dataset.suffix=i<2?'+':'';el.textContent=number+(i<2?'+':'');
   });
-  $('.photo.tall img').setAttribute('src','src/photos/5393292937736691009.jpg');
-  $('.photo.tall').classList.add('team-achievements');
+  $('.photo.tall img').setAttribute('src','src/photos/5386654082233212532.jpg');
 
   const schedule=document.createElement('section');schedule.id='zeiten';schedule.className='schedule';schedule.setAttribute('aria-labelledby','schedule-title');
   const groupPhotos=['src/photos/5386654082233212536.jpg','src/photos/5386654082233212533.jpg'];
@@ -28,7 +27,7 @@ export function renderSchoolDetails(document, t, prefix, images, base) {
   const nav=document.createElement('a');nav.href='#zeiten';nav.textContent=t.scheduleNav;$('.nav nav').insertBefore(nav,$('.nav nav a[href="#coach"]'));
   $('.experience-copy .button').setAttribute('href','#zeiten');
 
-  const newPhotos=['5393292937736691008','5386654082233212523','5388789338109321541','5388789338109321543','5388789338109321529','5391268827024267734','5391268827024267738','5386654082233212524','5391041137923007175','5391041137923007174','5391041137923007173','5391041137923007172','5391041137923007171','5386654082233212522','5386654082233212527','5386654082233212526','5386654082233212538'];
+  const newPhotos=['5393292937736691008','5393292937736691009','5386654082233212523','5388789338109321541','5388789338109321543','5388789338109321529','5391268827024267734','5391268827024267738','5386654082233212524','5391041137923007175','5391041137923007174','5391041137923007173','5391041137923007172','5391041137923007171','5386654082233212522','5386654082233212527','5386654082233212526','5386654082233212538'];
   $('.carousel-inner').innerHTML='';
   $('.gallery-thumbs').innerHTML='';
   newPhotos.forEach((id,i)=>{

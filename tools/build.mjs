@@ -101,7 +101,7 @@ for (const [lang, t] of Object.entries(translations)) {
   all('link[rel="preconnect"]').forEach(el=>el.remove());
   all('link[rel="stylesheet"]').forEach(el=>{
     const href=el.getAttribute('href');
-    el.setAttribute('href',prefix+(href.includes('fonts.googleapis')?'assets/fonts/fonts.css':href.includes('bootstrap')?'assets/vendor/bootstrap.min.css':'styles.css?v=photo4'));
+    el.setAttribute('href',prefix+(href.includes('fonts.googleapis')?'assets/fonts/fonts.css':href.includes('bootstrap')?'assets/vendor/bootstrap.min.css':'styles.css?v=photo5'));
     el.removeAttribute('integrity');el.removeAttribute('crossorigin');
   });
   const icon=document.createElement('link');icon.setAttribute('rel','icon');icon.setAttribute('type','image/webp');icon.setAttribute('href',prefix+images['5262644864430580814.jpg'].variants[0].path);document.head.appendChild(icon);

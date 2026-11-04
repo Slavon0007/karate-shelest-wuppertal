@@ -1025,5 +1025,30 @@
         "bytes": 101244
       }
     ]
+  },
+  "src/photos/5393292937736691008.jpg": {
+    "originalBytes": 146728,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/galerie-erste-karateschritte-320.webp",
+        "width": 320,
+        "height": 427,
+        "bytes": 26060
+      },
+      {
+        "path": "assets/images/galerie-erste-karateschritte-640.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 68356
+      },
+      {
+        "path": "assets/images/galerie-erste-karateschritte-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 118828
+      }
+    ]
   }
 }

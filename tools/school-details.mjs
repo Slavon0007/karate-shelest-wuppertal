@@ -17,7 +17,8 @@ export function renderSchoolDetails(document, t, prefix, images, base) {
     const el=document.querySelectorAll('.numbers strong')[i];
     el.dataset.count=String(number);el.dataset.suffix=i<2?'+':'';el.textContent=number+(i<2?'+':'');
   });
-  $('.photo.tall img').setAttribute('src','src/photos/5386654082233212532.jpg');
+  $('.photo.tall img').setAttribute('src','src/photos/5393292937736691009.jpg');
+  $('.photo.tall').classList.add('team-achievements');
 
   const schedule=document.createElement('section');schedule.id='zeiten';schedule.className='schedule';schedule.setAttribute('aria-labelledby','schedule-title');
   const groupPhotos=['src/photos/5386654082233212536.jpg','src/photos/5386654082233212533.jpg'];

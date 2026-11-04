@@ -1000,5 +1000,30 @@
         "bytes": 83878
       }
     ]
+  },
+  "src/photos/5393292937736691009.jpg": {
+    "originalBytes": 127521,
+    "width": 904,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/trainer-kinder-pokale-320.webp",
+        "width": 320,
+        "height": 453,
+        "bytes": 25192
+      },
+      {
+        "path": "assets/images/trainer-kinder-pokale-640.webp",
+        "width": 640,
+        "height": 906,
+        "bytes": 63758
+      },
+      {
+        "path": "assets/images/trainer-kinder-pokale-904.webp",
+        "width": 904,
+        "height": 1280,
+        "bytes": 101244
+      }
+    ]
   }
 }

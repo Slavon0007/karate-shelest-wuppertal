@@ -43,6 +43,7 @@ sources = {
     'src/photos/5391041137923007171.jpg': 'galerie-teamzusammenhalt',
     'src/photos/5386654082233212526.jpg': 'galerie-dehnung',
     'src/photos/5386654082233212538.jpg': 'galerie-junge-karatekas',
+    'src/photos/5393292937736691009.jpg': 'trainer-kinder-pokale',
 }
 manifest = {}
 for source, stem in sources.items():
